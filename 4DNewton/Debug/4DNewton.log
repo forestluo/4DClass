@@ -1,0 +1,82 @@
+﻿生成启动时间为 2016/1/19 15:48:37。
+     1>项目“E:\VisualStudio\4DClass_25\4DNewton\4DNewton.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BodyManager.cpp BoxEntity.cpp CapsuleEntity.cpp ChamferCylinderEntity.cpp ClassicBallJoint.cpp ClassicCorkscrewJoint.cpp ClassicHingeJoint.cpp ClassicSliderJoint.cpp ClassicUniversalJoint.cpp ClassicUpVectorJoint.cpp CompoundEntity.cpp ConeEntity.cpp ConvexEntity.cpp Custom6DOFJoint.cpp CustomBallJoint.cpp CustomHingeJoint.cpp CustomSliderJoint.cpp CylinderEntity.cpp EntityManager.cpp HeightFieldEntity.cpp InteractionItem.cpp JointManager.cpp MeshEntity.cpp PhysicsClassicJoint.cpp PhysicsCustomJoint.cpp PhysicsEntity.cpp PhysicsJoint.cpp PhysicsManager.cpp PhysicsTime.cpp PhysicsWorld.cpp InteractionManager.cpp ShapeManager.cpp SimulationManager.cpp SphereEntity.cpp
+         SphereEntity.cpp
+         SimulationManager.cpp
+         ShapeManager.cpp
+         InteractionManager.cpp
+         PhysicsWorld.cpp
+         PhysicsTime.cpp
+         PhysicsManager.cpp
+         PhysicsJoint.cpp
+         PhysicsEntity.cpp
+         PhysicsCustomJoint.cpp
+         PhysicsClassicJoint.cpp
+         MeshEntity.cpp
+         JointManager.cpp
+         InteractionItem.cpp
+         HeightFieldEntity.cpp
+         EntityManager.cpp
+         CylinderEntity.cpp
+         CustomSliderJoint.cpp
+         CustomHingeJoint.cpp
+         CustomBallJoint.cpp
+         正在生成代码...
+         正在编译...
+         Custom6DOFJoint.cpp
+         ConvexEntity.cpp
+         ConeEntity.cpp
+         CompoundEntity.cpp
+         ClassicUpVectorJoint.cpp
+         ClassicUniversalJoint.cpp
+         ClassicSliderJoint.cpp
+         ClassicHingeJoint.cpp
+         ClassicCorkscrewJoint.cpp
+         ClassicBallJoint.cpp
+         ChamferCylinderEntity.cpp
+         CapsuleEntity.cpp
+         BoxEntity.cpp
+         BodyManager.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass_25\Debug\4DNewton.lib" /NOLOGO Debug\BodyManager.obj
+         Debug\BoxEntity.obj
+         Debug\CapsuleEntity.obj
+         Debug\ChamferCylinderEntity.obj
+         Debug\ClassicBallJoint.obj
+         Debug\ClassicCorkscrewJoint.obj
+         Debug\ClassicHingeJoint.obj
+         Debug\ClassicSliderJoint.obj
+         Debug\ClassicUniversalJoint.obj
+         Debug\ClassicUpVectorJoint.obj
+         Debug\CompoundEntity.obj
+         Debug\ConeEntity.obj
+         Debug\ConvexEntity.obj
+         Debug\Custom6DOFJoint.obj
+         Debug\CustomBallJoint.obj
+         Debug\CustomHingeJoint.obj
+         Debug\CustomSliderJoint.obj
+         Debug\CylinderEntity.obj
+         Debug\EntityManager.obj
+         Debug\HeightFieldEntity.obj
+         Debug\InteractionItem.obj
+         Debug\JointManager.obj
+         Debug\MeshEntity.obj
+         Debug\PhysicsClassicJoint.obj
+         Debug\PhysicsCustomJoint.obj
+         Debug\PhysicsEntity.obj
+         Debug\PhysicsJoint.obj
+         Debug\PhysicsManager.obj
+         Debug\PhysicsTime.obj
+         Debug\PhysicsWorld.obj
+         Debug\InteractionManager.obj
+         Debug\ShapeManager.obj
+         Debug\SimulationManager.obj
+         Debug\SphereEntity.obj
+         4DNewton.vcxproj -> E:\VisualStudio\4DClass_25\Debug\4DNewton.lib
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DNewton\4DNewton.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.11

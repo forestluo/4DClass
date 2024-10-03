@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="physics">
+      <UniqueIdentifier>{f08ffc36-ed28-4b89-a740-b52f7670c9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{6a3f4b8b-15e0-45a0-867c-67d57bf467ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{9e72cf96-a3f5-47c7-8bd7-a5ced18efe60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoundApplication.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXApplication.cpp" />
+    <ClCompile Include="PhysicsApplication.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneApplication.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoundApplication.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXApplication.h" />
+    <ClInclude Include="PhysicsApplication.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneApplication.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

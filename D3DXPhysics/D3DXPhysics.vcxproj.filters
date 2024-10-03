@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scene">
+      <UniqueIdentifier>{451637a0-7a74-40f6-b540-f39344bb902d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\attribute">
+      <UniqueIdentifier>{ba3368b4-e7a3-4d21-9a4f-660f698c38a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\attribute\collision">
+      <UniqueIdentifier>{881b7c23-ddff-471e-9b61-7813253c002c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\attribute\picked">
+      <UniqueIdentifier>{6e8972c5-0d37-4b26-ab46-d67a38ba4df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\group">
+      <UniqueIdentifier>{676adcdc-9a20-41ea-b629-fc5fa521ab13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{db00e12a-e3f6-4f33-8f07-af9453fac740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint">
+      <UniqueIdentifier>{775756fd-610e-4c30-96eb-e25ffe559d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\compound">
+      <UniqueIdentifier>{8c1f5f2a-0d8e-46e1-92eb-4a9fc4f5b8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive">
+      <UniqueIdentifier>{ced23f7c-84a1-46bb-ab4b-448b9ca523c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foreground">
+      <UniqueIdentifier>{19e415cb-391a-4859-bcf7-6cdb04b882e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="background">
+      <UniqueIdentifier>{1f70c74c-463d-4992-914a-ac5a683f13ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foreground\simple">
+      <UniqueIdentifier>{1b8c0f84-c788-45c6-a43d-c6b6818507c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="none">
+      <UniqueIdentifier>{1973b19a-5716-4a44-a621-4d66dfcdee88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\manager">
+      <UniqueIdentifier>{1f7c8e52-c22b-4cc7-a92b-871dc7130120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\manager\model">
+      <UniqueIdentifier>{cf4eaf6d-77bb-4edc-a409-f1e57b693901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{eac52411-da21-485e-b4b7-ca2d0e782480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\axis">
+      <UniqueIdentifier>{c48445ed-ebfe-444a-bfaa-3323012ea9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\plus">
+      <UniqueIdentifier>{d4e84b07-5cd6-4df4-abb6-2af71abacac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\manager\compound">
+      <UniqueIdentifier>{7bedd5ee-2b9f-4bab-93f4-b4d4742dd7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\manager\joint">
+      <UniqueIdentifier>{f044c5f6-b935-481c-8458-a3b2b66ff6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\box">
+      <UniqueIdentifier>{5fd08680-c950-4e39-8027-1a00db7b6bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\array">
+      <UniqueIdentifier>{02a72e53-ef75-470a-a887-f0d5f04bea10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\manager\array">
+      <UniqueIdentifier>{660ff3ff-82c0-4eaa-8419-cb3775fa5d58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrimitiveObject.h">
+      <Filter>object\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundObject.h">
+      <Filter>object\compound</Filter>
+    </ClInclude>
+    <ClInclude Include="JointObject.h">
+      <Filter>object\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionAttribute.h">
+      <Filter>scene\attribute\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PickedAttribute.h">
+      <Filter>scene\attribute\picked</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ForegroundScene.h">
+      <Filter>foreground</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundScene.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="NoneScene.h">
+      <Filter>none</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleScene.h">
+      <Filter>foreground\simple</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>scene\manager\model</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGroup.h">
+      <Filter>scene\group</Filter>
+    </ClInclude>
+    <ClInclude Include="JointModelManager.h">
+      <Filter>scene\manager\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundModelManager.h">
+      <Filter>scene\manager\compound</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundAxisObject.h">
+      <Filter>sample\axis</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundBoxObject.h">
+      <Filter>sample\box</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundPlusObject.h">
+      <Filter>sample\plus</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayManager.h">
+      <Filter>scene\manager\array</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrimitiveObject.cpp">
+      <Filter>object\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundObject.cpp">
+      <Filter>object\compound</Filter>
+    </ClCompile>
+    <ClCompile Include="JointObject.cpp">
+      <Filter>object\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionAttribute.cpp">
+      <Filter>scene\attribute\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PickedAttribute.cpp">
+      <Filter>scene\attribute\picked</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ForegroundScene.cpp">
+      <Filter>foreground</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundScene.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="NoneScene.cpp">
+      <Filter>none</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleScene.cpp">
+      <Filter>foreground\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>scene\manager\model</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGroup.cpp">
+      <Filter>scene\group</Filter>
+    </ClCompile>
+    <ClCompile Include="JointModelManager.cpp">
+      <Filter>scene\manager\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundModelManager.cpp">
+      <Filter>scene\manager\compound</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundAxisObject.cpp">
+      <Filter>sample\axis</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundBoxObject.cpp">
+      <Filter>sample\box</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundPlusObject.cpp">
+      <Filter>sample\plus</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayManager.cpp">
+      <Filter>scene\manager\array</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

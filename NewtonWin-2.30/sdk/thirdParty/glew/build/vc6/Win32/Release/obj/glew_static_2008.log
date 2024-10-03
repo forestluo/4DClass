@@ -1,0 +1,24 @@
+﻿Build started 2011/7/25 11:33:28.
+     1>Project "D:\physics\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\glew_static_2008.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\obj\glew.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MakeDirsForCl:
+         Creating directory "D:\physics\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\.\static\release".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D WIN32_LEAN_AND_MEAN /D VC_EXTRALEAN /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\obj\\" /Fd"Win32\Release\obj\vc90.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Win32\Release\obj\glew.res" glew.rc 
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32\Release\glew.lib" /NOLOGO Win32\Release\obj\glew.res
+         Win32\Release\obj\glew.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         glew_static_2008.vcxproj -> D:\physics\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\Win32\Release\glew.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\obj\glew.unsuccessfulbuild".
+         Touching "Win32\Release\obj\glew.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\glew_static_2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38

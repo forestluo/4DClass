@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="type">
+      <UniqueIdentifier>{48f4995e-46b1-4da0-bf10-6941baba06f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lock">
+      <UniqueIdentifier>{f327a64c-a211-473b-938a-37fd6873ccaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{4ce76a29-0649-4a22-9acb-3a9b53eb912c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time\expire">
+      <UniqueIdentifier>{5b48e9b9-0acc-4400-974f-9e30d042fb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time\flowmeter">
+      <UniqueIdentifier>{188537f0-5be9-45c6-892e-7a3c759e8fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runnable">
+      <UniqueIdentifier>{4aa30d81-19aa-4870-b13b-05b468c42fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runnable\thread">
+      <UniqueIdentifier>{2fc1f0d3-b671-4a43-b232-8e3055ceb73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{61e0b618-1342-499c-b84c-82453cd225f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{1756ed9b-5127-4301-85aa-9f7d765ac66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{4ac7b714-ec71-457d-b98e-5d5c87ebf4d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoolType.h">
+      <Filter>type</Filter>
+    </ClInclude>
+    <ClInclude Include="CharType.h">
+      <Filter>type</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerType.h">
+      <Filter>type</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>type</Filter>
+    </ClInclude>
+    <ClInclude Include="4DLock.h">
+      <Filter>lock</Filter>
+    </ClInclude>
+    <ClInclude Include="4DPrint.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="4DTime.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleExpire.h">
+      <Filter>time\expire</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFlowmeter.h">
+      <Filter>time\flowmeter</Filter>
+    </ClInclude>
+    <ClInclude Include="4DRunnable.h">
+      <Filter>runnable</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleThread.h">
+      <Filter>runnable\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="4DBase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="4DBaseMap.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatType.h">
+      <Filter>type</Filter>
+    </ClInclude>
+    <ClInclude Include="4DType.h" />
+    <ClInclude Include="4DDebug.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="4DLock.cpp">
+      <Filter>lock</Filter>
+    </ClCompile>
+    <ClCompile Include="4DPrint.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="4DTime.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleExpire.cpp">
+      <Filter>time\expire</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFlowmeter.cpp">
+      <Filter>time\flowmeter</Filter>
+    </ClCompile>
+    <ClCompile Include="4DRunnable.cpp">
+      <Filter>runnable</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleThread.cpp">
+      <Filter>runnable\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="4DBase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="4DBaseMap.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="4DDebug.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

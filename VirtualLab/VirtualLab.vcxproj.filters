@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{1e07fe65-2375-4446-bb5e-52f98cd7b4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\random">
+      <UniqueIdentifier>{732bc779-13a8-40e6-80e6-1598f14b9c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{e11e6532-a754-48da-8a9b-63dc85041715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog">
+      <UniqueIdentifier>{e8d651d6-7149-4cbd-860b-bc3030a46da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{72c8e18c-a89c-45ab-9799-e1417c801c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\resource">
+      <UniqueIdentifier>{5179864f-2991-4557-a7e6-50b0a2e0246e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\scene">
+      <UniqueIdentifier>{c405d88e-fa3a-4278-b103-16282333600b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property">
+      <UniqueIdentifier>{86dbe52b-a90b-4281-85b4-078fe1f3ce00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame">
+      <UniqueIdentifier>{1cc2d336-6333-4c16-bf4f-f780de5d7d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\viewtree">
+      <UniqueIdentifier>{cbe23d04-170e-4ff0-af37-5d0412b75e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties">
+      <UniqueIdentifier>{faa4538d-7694-4a59-af32-25a9d4c0f8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\viewport">
+      <UniqueIdentifier>{16665288-4123-4e4e-9c78-e417a9a63012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource">
+      <UniqueIdentifier>{841bb978-8a61-4840-bf56-585383b0d984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource\effect">
+      <UniqueIdentifier>{eaa4e9aa-c47f-4216-8781-2dba9124df8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource\texture">
+      <UniqueIdentifier>{ca219d2c-2a36-4454-b13e-7a22c0a207f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource\renderable">
+      <UniqueIdentifier>{4ae14130-dabc-4370-a5fa-bb36f0bee019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable">
+      <UniqueIdentifier>{af297643-fee0-4260-9dd1-a004a209be10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\fill">
+      <UniqueIdentifier>{7648ed89-1e94-4544-b8ac-0947ad81d303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\change">
+      <UniqueIdentifier>{f2a91677-ee29-4a82-b1a9-3da2dbf49aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\changed">
+      <UniqueIdentifier>{871f757d-105d-4b24-a90c-cd07100b7ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive">
+      <UniqueIdentifier>{57798ddf-7e30-4d58-808f-eeb532c7697e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\slice">
+      <UniqueIdentifier>{6578a8a8-0eb2-4efc-9df3-7f357c49db5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\sphere">
+      <UniqueIdentifier>{a0dc6d81-9654-40a1-b8af-d8f90365a6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\chamferCylinder">
+      <UniqueIdentifier>{66fefea7-e0ab-49be-a1d9-7cd30e46950d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\frustum">
+      <UniqueIdentifier>{c48e2de0-38f2-42fa-bfe9-0ffdc6c8bcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\cylinder">
+      <UniqueIdentifier>{0a677e4e-d056-48a0-975d-a7e29bf64a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\cuboid">
+      <UniqueIdentifier>{b76573eb-5226-4a89-ab16-874103ceea85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\cube">
+      <UniqueIdentifier>{5436885a-09c6-4fd8-bb4a-04f86110ee9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\cone">
+      <UniqueIdentifier>{91a62a49-7b4f-4061-ab23-6f4578945b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\capsule">
+      <UniqueIdentifier>{22f6543c-2f64-4139-9f6d-30217b8858c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\compound">
+      <UniqueIdentifier>{b01d87d5-62e6-4b8f-baf9-79d67df0dacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\compound\axis">
+      <UniqueIdentifier>{c7af35ad-b1a7-4960-9bde-4615ec72e747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\compound\plus">
+      <UniqueIdentifier>{b710ade9-84b7-48ca-a26b-11fcf3fe72a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint">
+      <UniqueIdentifier>{7ad87c0a-f343-4cef-80ef-70225db3b6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic">
+      <UniqueIdentifier>{7aadbc9f-4d0d-42f2-8b2c-cf94312df719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\custom">
+      <UniqueIdentifier>{afbfa024-1889-4ab6-812d-d9f66f94abf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\fill\joint">
+      <UniqueIdentifier>{4f87f2ec-82f5-49fb-acea-2fc1dded6dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\change\joint">
+      <UniqueIdentifier>{b5fe927d-b0cf-4df8-a065-9fafd701694a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\change\physics">
+      <UniqueIdentifier>{db482369-c345-44a1-8f29-2e993acffa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\renderable\fill\physics">
+      <UniqueIdentifier>{a62aefe7-5af1-4754-b29e-528a877385bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\polygon">
+      <UniqueIdentifier>{0837ecb5-a216-4fcc-8fce-8486aa7963fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\upvector">
+      <UniqueIdentifier>{511a87fe-b7fe-4fc1-9600-1c7a0c324644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\corkscrew">
+      <UniqueIdentifier>{b0597481-1459-456d-8e38-707a93d41800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\ball">
+      <UniqueIdentifier>{e700b095-5f89-4b61-84c4-14ed9a25fc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\hinge">
+      <UniqueIdentifier>{a77fa912-ec30-490c-b78a-f7076da6e9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\slider">
+      <UniqueIdentifier>{7d2d2a34-eca7-4221-a180-1db33161e5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\classic\universal">
+      <UniqueIdentifier>{86458e31-5661-4515-923b-4cb2df16833d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\custom\ball">
+      <UniqueIdentifier>{3b141735-89ae-4891-b0e3-554aef1c10e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\custom\hinge">
+      <UniqueIdentifier>{ece990a3-02f5-4a89-96d2-5aa0cd905a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\custom\slider">
+      <UniqueIdentifier>{abad30bd-def5-45ac-a673-90b0663c42f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\joint\custom\6dof">
+      <UniqueIdentifier>{1c7f299f-2536-4c74-b249-07fb882a34a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\compound\box">
+      <UniqueIdentifier>{8d904113-1dff-4a47-85c8-636a98398992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource\device">
+      <UniqueIdentifier>{f6423b5a-51e3-49c0-b457-26a46475b540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view\property\properties\resource\filter">
+      <UniqueIdentifier>{7dd5b08e-96aa-4afc-967c-806bdb5d0505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operations">
+      <UniqueIdentifier>{81734fc9-89b4-4a3f-9a1f-6be2ce4ae8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\texture">
+      <UniqueIdentifier>{4dc12b84-3089-4b3a-aaf0-300f5fd8e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\circle">
+      <UniqueIdentifier>{804d0f1c-fd19-4dcc-ba9d-1254e9c52aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\grid">
+      <UniqueIdentifier>{16e1b3c5-b094-40f5-b424-2196b0e2b350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\primitive\array">
+      <UniqueIdentifier>{71ae8265-e997-47bc-b7a9-7aeb7cf87dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\ground">
+      <UniqueIdentifier>{fc186ee1-1331-4ea6-a2d0-550b3f3a02a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog\control">
+      <UniqueIdentifier>{a4411fb7-6f25-4801-9d31-a6f8561a88e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="VirtualLab.reg" />
+    <None Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VirtualLab.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VirtualLabDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VirtualLab.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualLab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualLabView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomScene.h">
+      <Filter>scene\random</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceDialog.h">
+      <Filter>dialog\primitive\slice</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceView.h">
+      <Filter>view\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>view\property</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>view\viewtree</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneView.h">
+      <Filter>view\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>frame</Filter>
+    </ClInclude>
+    <ClInclude Include="4DProperties.h">
+      <Filter>view\property\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereDialog.h">
+      <Filter>dialog\primitive\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeDialog.h">
+      <Filter>dialog\primitive\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboidDialog.h">
+      <Filter>dialog\primitive\cuboid</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeDialog.h">
+      <Filter>dialog\primitive\cone</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderDialog.h">
+      <Filter>dialog\primitive\cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumDialog.h">
+      <Filter>dialog\primitive\frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleDialog.h">
+      <Filter>dialog\primitive\capsule</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamferCylinderDialog.h">
+      <Filter>dialog\primitive\chamferCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonDialog.h">
+      <Filter>dialog\primitive\polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicCorkscrewJointDialog.h">
+      <Filter>dialog\joint\classic\corkscrew</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicBallJointDialog.h">
+      <Filter>dialog\joint\classic\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicHingeJointDialog.h">
+      <Filter>dialog\joint\classic\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicUpVectorJointDialog.h">
+      <Filter>dialog\joint\classic\upvector</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicSliderJointDialog.h">
+      <Filter>dialog\joint\classic\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicUniversalJointDialog.h">
+      <Filter>dialog\joint\classic\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBallJointDialog.h">
+      <Filter>dialog\joint\custom\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomHingeJointDialog.h">
+      <Filter>dialog\joint\custom\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSliderJointDialog.h">
+      <Filter>dialog\joint\custom\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom6DOFJointDialog.h">
+      <Filter>dialog\joint\custom\6dof</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundAxisDialog.h">
+      <Filter>dialog\compound\axis</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundBoxDialog.h">
+      <Filter>dialog\compound\box</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundPlusDialog.h">
+      <Filter>dialog\compound\plus</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualLabDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HAARFilterDialog.h">
+      <Filter>dialog\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTextureDialog.h">
+      <Filter>dialog\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFilterDialog.h">
+      <Filter>dialog\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleDialog.h">
+      <Filter>dialog\primitive\circle</Filter>
+    </ClInclude>
+    <ClInclude Include="GridDialog.h">
+      <Filter>dialog\primitive\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayDialog.h">
+      <Filter>dialog\primitive\array</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundMeshDialog.h">
+      <Filter>dialog\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBallDialog.h">
+      <Filter>dialog\control</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlItemDialog.h">
+      <Filter>dialog\control</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicItemDialog.h">
+      <Filter>dialog\control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VirtualLab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualLabDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualLabView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomScene.cpp">
+      <Filter>scene\random</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceDialog.cpp">
+      <Filter>dialog\primitive\slice</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceView.cpp">
+      <Filter>view\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>view\property</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>view\viewtree</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneView.cpp">
+      <Filter>view\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportProperties.cpp">
+      <Filter>view\property\properties\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceProperties.cpp">
+      <Filter>view\property\properties\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureProperties.cpp">
+      <Filter>view\property\properties\resource\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectProperties.cpp">
+      <Filter>view\property\properties\resource\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMeshProperties.cpp">
+      <Filter>view\property\properties\resource\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveProperties.cpp">
+      <Filter>view\property\properties\resource\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="LinestripProperties.cpp">
+      <Filter>view\property\properties\resource\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableProperties.cpp">
+      <Filter>view\property\properties\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="FillProperties.cpp">
+      <Filter>view\property\properties\renderable\fill</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeProperties.cpp">
+      <Filter>view\property\properties\renderable\change</Filter>
+    </ClCompile>
+    <ClCompile Include="FillBoxProperties.cpp">
+      <Filter>view\property\properties\renderable\fill</Filter>
+    </ClCompile>
+    <ClCompile Include="FillRenderProperties.cpp">
+      <Filter>view\property\properties\renderable\fill</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesChanged.cpp">
+      <Filter>view\property\properties\renderable\changed</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPropertiesChanged.cpp">
+      <Filter>view\property\properties\renderable\changed</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereDialog.cpp">
+      <Filter>dialog\primitive\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeDialog.cpp">
+      <Filter>dialog\primitive\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboidDialog.cpp">
+      <Filter>dialog\primitive\cuboid</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeDialog.cpp">
+      <Filter>dialog\primitive\cone</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderDialog.cpp">
+      <Filter>dialog\primitive\cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumDialog.cpp">
+      <Filter>dialog\primitive\frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleDialog.cpp">
+      <Filter>dialog\primitive\capsule</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamferCylinderDialog.cpp">
+      <Filter>dialog\primitive\chamferCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="JointCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="FillJointProperties.cpp">
+      <Filter>view\property\properties\renderable\fill\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="FillJointForceProperties.cpp">
+      <Filter>view\property\properties\renderable\fill\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeJointForceProperties.cpp">
+      <Filter>view\property\properties\renderable\change\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePhyiscsForceProperties.cpp">
+      <Filter>view\property\properties\renderable\change\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePhysicsProperties.cpp">
+      <Filter>view\property\properties\renderable\change\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="FillPhysicsForceProperties.cpp">
+      <Filter>view\property\properties\renderable\fill\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="FillPhysicsProperties.cpp">
+      <Filter>view\property\properties\renderable\fill\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeJointProperties.cpp">
+      <Filter>view\property\properties\renderable\change\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonDialog.cpp">
+      <Filter>dialog\primitive\polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicCorkscrewJointDialog.cpp">
+      <Filter>dialog\joint\classic\corkscrew</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicBallJointDialog.cpp">
+      <Filter>dialog\joint\classic\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicHingeJointDialog.cpp">
+      <Filter>dialog\joint\classic\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicUpVectorJointDialog.cpp">
+      <Filter>dialog\joint\classic\upvector</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicSliderJointDialog.cpp">
+      <Filter>dialog\joint\classic\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicUniversalJointDialog.cpp">
+      <Filter>dialog\joint\classic\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBallJointDialog.cpp">
+      <Filter>dialog\joint\custom\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomHingeJointDialog.cpp">
+      <Filter>dialog\joint\custom\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSliderJointDialog.cpp">
+      <Filter>dialog\joint\custom\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom6DOFJointDialog.cpp">
+      <Filter>dialog\joint\custom\6dof</Filter>
+    </ClCompile>
+    <ClCompile Include="JointPropertiesChanged.cpp">
+      <Filter>view\property\properties\renderable\changed</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundAxisDialog.cpp">
+      <Filter>dialog\compound\axis</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundBoxDialog.cpp">
+      <Filter>dialog\compound\box</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundPlusDialog.cpp">
+      <Filter>dialog\compound\plus</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceProperties.cpp">
+      <Filter>view\property\properties\resource\device</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterProperties.cpp">
+      <Filter>view\property\properties\resource\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterPropertiesChanged.cpp">
+      <Filter>view\property\properties\resource\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="DevicePropertiesChanged.cpp">
+      <Filter>view\property\properties\resource\device</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlOperations.cpp">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterOperations.cpp">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="HAARFilterDialog.cpp">
+      <Filter>dialog\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTextureDialog.cpp">
+      <Filter>dialog\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureOperations.cpp">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthFilterDialog.cpp">
+      <Filter>dialog\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleDialog.cpp">
+      <Filter>dialog\primitive\circle</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="GridDialog.cpp">
+      <Filter>dialog\primitive\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayDialog.cpp">
+      <Filter>dialog\primitive\array</Filter>
+    </ClCompile>
+    <ClCompile Include="InfrastructureCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPortCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundMeshDialog.cpp">
+      <Filter>dialog\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBallDialog.cpp">
+      <Filter>dialog\control</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicOperation.cpp">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlItemDialog.cpp">
+      <Filter>dialog\control</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicItemDialog.cpp">
+      <Filter>dialog\control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VirtualLab.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

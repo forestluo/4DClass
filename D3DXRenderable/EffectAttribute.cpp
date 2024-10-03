@@ -1,0 +1,192 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// EffectAttribute.h
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "EffectAttribute.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "D3DXApplication.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CEffectAttribute
+//
+// Default construction.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+CEffectAttribute::CEffectAttribute(void)
+{
+	//Set default value.
+	effect = (CD3DXEffect *)_NULL;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CEffectAttribute
+//
+// Default deconstruction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CEffectAttribute::~CEffectAttribute(void)
+{
+	//Check effect.
+	if(effect != _NULL)
+	{
+		//Release reference.
+		effect->releaseReference();
+		//Clear reference.
+		effect = (CD3DXEffect *)_NULL;
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ClearEffect
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CEffectAttribute::clearEffect()
+{
+	//Check effect.
+	if(effect != _NULL)
+	{
+		//Release reference.
+		effect->releaseReference();
+		//Clear reference.
+		effect = (CD3DXEffect *)_NULL;
+	}
+	//Clear name of effect.
+	effectName.clearAll();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetEffect
+//
+///////////////////////////////////////////////////////////////////////////////
+
+CD3DXEffect* CEffectAttribute::getEffect() const
+{
+	//Return result.
+	return effect;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetEffectName
+//
+///////////////////////////////////////////////////////////////////////////////
+
+const CNormalString& CEffectAttribute::getEffectName() const
+{
+	//Return result.
+	return effectName;
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// SelectEffect
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+void CEffectAttribute::selectEffect(CResourceManager* resourceManager,const CNormalString& name)
+{
+#ifdef _DEBUG
+	assert(resourceManager != _NULL);
+#endif
+
+	///////////////////////////////////////
+	//
+	// Clear previous effect.
+	//
+	//Check effect.
+	if(effect != _NULL)
+	{
+		//Release reference.
+		effect->releaseReference();
+		//Clear effect.
+		effect = (CD3DXEffect *)_NULL;
+	}
+	//
+	///////////////////////////////////////
+
+	//Set name.
+	effectName = name;
+	//Check name.
+	if(name.length() > 0)
+	{
+		///////////////////////////////////////
+		//
+		// Select effect from resources.
+		//
+		//Get resource.
+		CD3DXResource* resource = resourceManager->getResource(name);
+#ifdef _DEBUG
+		assert(resource != NULL);
+		assert(IS_EFFECT_BASE(resource));
+#endif
+		//Add reference.
+		resource->addReference();
+		//Set effect.
+		effect = (CD3DXEffect *)resource;
+		//
+		///////////////////////////////////////
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// HandleMessage
+//
+///////////////////////////////////////////////////////////////////////////////
+
+HRESULT CEffectAttribute::handleMessage(const D3DXEvent& d3dxEvent)
+{
+	//Check event id.
+	//Do not dispatch any message to its effect or property.
+	switch(d3dxEvent.d3dxEventID)
+	{
+	//Release D3D9 resources created in the OnD3D9CreateDevice callback.
+	case d3dxOnD3D9DestroyDevice:
+		///////////////////////////////////////
+		//
+		//Check effect.
+		if(effect != _NULL)
+		{
+			//Release reference.
+			effect->releaseReference();
+			//Clear effect.
+			effect = (CD3DXEffect *)_NULL;
+		}
+		//
+		///////////////////////////////////////
+		break;
+	//Create any D3D9 resources that will live through a device reset (D3DPOOL_MANAGED) and aren't tied to the back buffer size.
+	case d3dxOnD3D9CreateDevice:
+#ifdef _DEBUG
+		assert(d3dxEvent.d3dxCreateDevice9.pd3dDevice != NULL);
+		assert(d3dxEvent.pUserContext != NULL);
+#endif
+		///////////////////////////////////////
+		//
+		//Select effect.
+		selectEffect(((CD3DXApplication *)d3dxEvent.pUserContext)->getResourceManager(),effectName);
+		//
+		///////////////////////////////////////
+		break;
+	}
+	//Return result.
+	return CD3DXObject::handleMessage(d3dxEvent);
+}

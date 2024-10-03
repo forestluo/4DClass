@@ -1,0 +1,26 @@
+﻿Build started 2011/8/4 14:18:32.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\glew_static_2008.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\obj\glew.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\obj\glew.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D WIN32_LEAN_AND_MEAN /D VC_EXTRALEAN /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\obj\\" /Fd"Win32\Debug\obj\vc90.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Win32\Debug\obj\glew.res" glew.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\Win32\Debug\glew.lib) does not match the Library's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\Win32\Debug\glew_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(glew) does not match the Library's OutputFile property value (glew_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32\Debug\glew_d.lib" /NOLOGO Win32\Debug\obj\glew.res
+         Win32\Debug\obj\glew.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         glew_static_2008.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\Win32\Debug\glew.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\obj\glew.unsuccessfulbuild".
+         Touching "Win32\Debug\obj\glew.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\thirdParty\glew\build\vc6\glew_static_2008.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29

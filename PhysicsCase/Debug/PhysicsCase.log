@@ -1,0 +1,20 @@
+﻿Build started 2012/1/17 11:32:17.
+     1>Project "E:\VisualStudio\4DClass\PhysicsCase\PhysicsCase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\PhysicsCase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\4DClass\Debug\PhysicsCase.exe" /NOLOGO comctl32.lib dxerr.lib dxguid.lib d3d9.lib d3dx9.lib d3d10.lib d3dx10.lib winmm.lib Dsound.lib Version.lib DXUT.lib DXUTOpt.lib newton.lib dMath_d.lib dJointLibrary_d.lib 4DMisc.lib 4DMath.lib 4DBasic.lib 4DString.lib 4DPhysics.lib 4DCollision.lib 4DContainer.lib 4DGeometry.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /ManifestFile:"Debug\PhysicsCase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\Debug\PhysicsCase.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\4DClass\Debug\PhysicsCase.lib" /MACHINE:X86 Debug\Main.obj
+         LINK : E:\VisualStudio\4DClass\Debug\PhysicsCase.exe not found or not built by the last incremental link; performing full link
+         PhysicsCase.vcxproj -> E:\VisualStudio\4DClass\Debug\PhysicsCase.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VisualStudio\4DClass\Debug\PhysicsCase.exe;#1" /manifest Debug\PhysicsCase.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\PhysicsCase.unsuccessfulbuild".
+         Touching "Debug\PhysicsCase.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\PhysicsCase\PhysicsCase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.41

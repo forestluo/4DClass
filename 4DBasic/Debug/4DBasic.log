@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/1/19 15:48:31。
+     1>项目“E:\VisualStudio\4DClass_25\4DBasic\4DBasic.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 4DBase.cpp 4DBaseMap.cpp 4DDebug.cpp 4DLock.cpp 4DPrint.cpp 4DRunnable.cpp 4DTime.cpp SimpleExpire.cpp SimpleFlowmeter.cpp SimpleThread.cpp
+         SimpleThread.cpp
+         SimpleFlowmeter.cpp
+         SimpleExpire.cpp
+         4DTime.cpp
+         4DRunnable.cpp
+         4DPrint.cpp
+         4DLock.cpp
+         4DDebug.cpp
+     1>e:\visualstudio\4dclass_25\4dbasic\4ddebug.cpp(19): warning C4074: 初始值设定项放置在编译器保留的初始化区域中
+         4DBaseMap.cpp
+         4DBase.cpp
+     1>e:\visualstudio\4dclass_25\4dbasic\4dbase.cpp(29): warning C4075: 初始值设定项放置在无法识别的初始化区域中
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass_25\Debug\4DBasic.lib" /NOLOGO Debug\4DBase.obj
+         Debug\4DBaseMap.obj
+         Debug\4DDebug.obj
+         Debug\4DLock.obj
+         Debug\4DPrint.obj
+         Debug\4DRunnable.obj
+         Debug\4DTime.obj
+         Debug\SimpleExpire.obj
+         Debug\SimpleFlowmeter.obj
+         Debug\SimpleThread.obj
+         4DBasic.vcxproj -> E:\VisualStudio\4DClass_25\Debug\4DBasic.lib
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DBasic\4DBasic.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.93

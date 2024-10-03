@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{641EBED2-699D-4682-9A06-EF5AB0D1DA92}</ProjectGuid>
+    <RootNamespace>D3DXResource</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\4DJoint;..\4DMath;..\4DBasic;..\4DString;..\4DGeometry;..\4DContainer;..\4DCollision;..\4DWorld;..\4DPhysics;..\4DNewton;..\4DRenderable;..\D3DXResource;..\D3DXRenderable;..\D3DXPhysics;..\D3DXApplication;..\4DMisc;..\DXUT\Core;..\DXUT\Optional;$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Axis0.cpp" />
+    <ClCompile Include="ControlBall.cpp" />
+    <ClCompile Include="FilterManager.cpp" />
+    <ClCompile Include="D3DXDevice.cpp" />
+    <ClCompile Include="D3DXDynamicTexture.cpp" />
+    <ClCompile Include="D3DXEffect.cpp" />
+    <ClCompile Include="D3DXEffectAttribute.cpp" />
+    <ClCompile Include="D3DXEvent.cpp" />
+    <ClCompile Include="D3DXFileMesh.cpp" />
+    <ClCompile Include="D3DXIndexAttribute.cpp" />
+    <ClCompile Include="D3DXLinestrip.cpp" />
+    <ClCompile Include="D3DXObject.cpp" />
+    <ClCompile Include="D3DXPickAttribute.cpp" />
+    <ClCompile Include="D3DXPrimitive.cpp" />
+    <ClCompile Include="D3DXRenderable.cpp" />
+    <ClCompile Include="D3DXResource.cpp" />
+    <ClCompile Include="D3DXStaticTexture.cpp" />
+    <ClCompile Include="D3DXTexture.cpp" />
+    <ClCompile Include="D3DXVertexAttribute.cpp" />
+    <ClCompile Include="D3DXDeviceReference.cpp" />
+    <ClCompile Include="DeviceManager.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="D3DXFilter.cpp" />
+    <ClCompile Include="MeshManager.cpp" />
+    <ClCompile Include="ModelViewPort.cpp" />
+    <ClCompile Include="PersonalViewPort.cpp" />
+    <ClCompile Include="PickIntersection.cpp" />
+    <ClCompile Include="PickRay.cpp" />
+    <ClCompile Include="PickResult.cpp" />
+    <ClCompile Include="PrimitiveManager.cpp" />
+    <ClCompile Include="RenderableManager.cpp" />
+    <ClCompile Include="ResourceApplication.cpp" />
+    <ClCompile Include="D3DXResourceGroup.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="LinestripManager.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="ViewPort.cpp" />
+    <ClCompile Include="ViewPortApplication.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Axis0.h" />
+    <ClInclude Include="ControlBall.h" />
+    <ClInclude Include="FilterManager.h" />
+    <ClInclude Include="D3DXDevice.h" />
+    <ClInclude Include="D3DXDynamicTexture.h" />
+    <ClInclude Include="D3DXEffect.h" />
+    <ClInclude Include="D3DXEffectAttribute.h" />
+    <ClInclude Include="D3DXFileMesh.h" />
+    <ClInclude Include="D3DXIndexAttribute.h" />
+    <ClInclude Include="D3DXLinestrip.h" />
+    <ClInclude Include="D3DXPickAttribute.h" />
+    <ClInclude Include="D3DXPrimitive.h" />
+    <ClInclude Include="D3DXRenderable.h" />
+    <ClInclude Include="D3DXResource.h" />
+    <ClInclude Include="D3DXStaticTexture.h" />
+    <ClInclude Include="D3DXTexture.h" />
+    <ClInclude Include="D3DXUtility.h" />
+    <ClInclude Include="D3DXEvent.h" />
+    <ClInclude Include="D3DXObject.h" />
+    <ClInclude Include="D3DXVertex.h" />
+    <ClInclude Include="D3DXVertexAttribute.h" />
+    <ClInclude Include="D3DXDeviceReference.h" />
+    <ClInclude Include="DeviceManager.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="D3DXFilter.h" />
+    <ClInclude Include="MeshManager.h" />
+    <ClInclude Include="ModelViewPort.h" />
+    <ClInclude Include="PersonalViewPort.h" />
+    <ClInclude Include="PickIntersection.h" />
+    <ClInclude Include="PickRay.h" />
+    <ClInclude Include="PickResult.h" />
+    <ClInclude Include="PrimitiveManager.h" />
+    <ClInclude Include="RenderableManager.h" />
+    <ClInclude Include="ResourceApplication.h" />
+    <ClInclude Include="D3DXResourceGroup.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ResourceName.h" />
+    <ClInclude Include="LinestripManager.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="ViewPort.h" />
+    <ClInclude Include="ViewPortApplication.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

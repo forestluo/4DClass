@@ -1,0 +1,229 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// SimpleFlowmeter.h
+//  
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "SimpleFlowmeter.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CSimpleFlowmeter
+//
+///////////////////////////////////////////////////////////////////////////////
+
+CSimpleFlowmeter::CSimpleFlowmeter(void)
+	: CSimpleExpire(SECOND)
+{
+	//Set default value.
+	count = 0;
+	peakFlux = 0;
+	accumulate = 0;
+	currentFlux = 0;
+	maximumFlux = FLUX_UNLIMITED;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CSimpleFlowmeter
+//
+///////////////////////////////////////////////////////////////////////////////
+
+CSimpleFlowmeter::CSimpleFlowmeter(_INTEGER flux)
+	: CSimpleExpire(flux >= FLUX_UNLIMITED ? SECOND : (SECOND * (-flux)))
+{
+	//Set default value.
+	count = 0;
+	peakFlux = 0;
+	accumulate = 0;
+	currentFlux = 0;
+	maximumFlux = flux;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ~CSimpleFlowmeter
+//
+///////////////////////////////////////////////////////////////////////////////
+
+CSimpleFlowmeter::~CSimpleFlowmeter(void)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ClearAll
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::clearAll()
+{
+	//Open.
+	openLock();
+	{
+		//Set expire.
+		CSimpleExpire::setExpiration(SECOND);
+		//Set default value.
+		count = 0;
+		peakFlux = 0;
+		accumulate = 0;
+		currentFlux = 0;
+		maximumFlux = FLUX_UNLIMITED;
+	}
+	//Close.
+	closeLock();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// SetFlux
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::setFlux(_INTEGER flux)
+{
+	//Open.
+	openLock();
+	{
+		//Set value.
+		maximumFlux = flux;
+		//Set expire.
+		CSimpleExpire::setExpiration(flux >= FLUX_UNLIMITED ? SECOND : (SECOND * (-flux)));
+	}
+	//Close.
+	closeLock();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// IsFull
+//
+///////////////////////////////////////////////////////////////////////////////
+	
+_BOOL CSimpleFlowmeter::isFull()
+{
+	//Value.
+	_BOOL value;
+	//Open.
+	openLock();
+	{
+		//Check flux.
+		if(maximumFlux == FLUX_UNLIMITED)
+		{
+			//Set value.
+			value = _FALSE;
+		}
+		else if(maximumFlux < FLUX_UNLIMITED)
+		{
+			//Set value.
+			value = accumulate >= 1;
+		}
+		else
+		{
+			//Set value.
+			value = accumulate >= maximumFlux;
+		}
+	}
+	//Close.
+	closeLock();
+	//Return value.
+	return value;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Reset
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::reset()
+{
+	//Open.
+	openLock();
+	{
+		//If the timer is timeout, the flowmeter would be reset.
+		if(isExpired())
+		{
+			//Reset timestamp.
+			C4DTime::initializeTime();
+
+			//Set current flux and clear register.
+			currentFlux = accumulate;accumulate = 0;
+			//Set peak flux.
+			if(currentFlux > peakFlux) peakFlux = currentFlux;
+		}
+	}
+	//Close.
+	closeLock();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Reset
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::reset(_LONG timestamp)
+{
+	//Open.
+	openLock();
+	{
+		//If the timer is timeout, the flowmeter would be reset.
+		if(isExpired(timestamp))
+		{
+			//Reset timestamp.
+			C4DTime::setTimestamp(timestamp);
+
+			//Set current flux and clear register.
+			currentFlux = accumulate;accumulate = 0;
+			//Set peak flux.
+			if(currentFlux > peakFlux) peakFlux = currentFlux;
+		}
+	}
+	//Close.
+	closeLock();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Increase
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::increase()
+{
+	//Open
+	openLock();
+	{
+		//Add count.
+		count ++;
+		//Add accumulate.
+		accumulate ++;
+	}
+	//Close.
+	closeLock();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Increase
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CSimpleFlowmeter::increase(_INTEGER total)
+{
+	//Open
+	openLock();
+	{
+		//Add count.
+		count += total;
+		//Add accumulate.
+		accumulate += total;
+	}
+	//Close.
+	closeLock();
+}

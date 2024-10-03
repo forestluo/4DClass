@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/1/19 15:48:36。
+     1>项目“E:\VisualStudio\4DClass_25\4DPhysics\4DPhysics.vcxproj”在节点 8 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ForceAttribute.cpp JointForceAttribute.cpp PhysicsCompoundObject.cpp PhysicsJointObject.cpp PhysicsAttribute.cpp PhysicsObject.cpp PhysicsPrimitiveObject.cpp StatusAttribute.cpp StatusKeeper.cpp
+         StatusKeeper.cpp
+         StatusAttribute.cpp
+         PhysicsPrimitiveObject.cpp
+         PhysicsObject.cpp
+         PhysicsAttribute.cpp
+         PhysicsJointObject.cpp
+         PhysicsCompoundObject.cpp
+         JointForceAttribute.cpp
+         ForceAttribute.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass_25\Debug\4DPhysics.lib" /NOLOGO Debug\ForceAttribute.obj
+         Debug\JointForceAttribute.obj
+         Debug\PhysicsCompoundObject.obj
+         Debug\PhysicsJointObject.obj
+         Debug\PhysicsAttribute.obj
+         Debug\PhysicsObject.obj
+         Debug\PhysicsPrimitiveObject.obj
+         Debug\StatusAttribute.obj
+         Debug\StatusKeeper.obj
+         4DPhysics.vcxproj -> E:\VisualStudio\4DClass_25\Debug\4DPhysics.lib
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DPhysics\4DPhysics.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.71

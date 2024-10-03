@@ -1,0 +1,65 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// ReferenceAttribute.h
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _REFERENCE_ATTRIBUTE_H_
+#define _REFERENCE_ATTRIBUTE_H_
+
+#pragma once
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "4DType.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ReferenceAttribute
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class CReferenceAttribute
+{
+private:
+
+	/**
+	 * Referenced flag.
+	 */
+	_BOOL referenced;
+
+public:
+	CReferenceAttribute(void);
+	virtual ~CReferenceAttribute(void);
+
+public:
+
+	/**
+	 * Whether is referenced.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Return true, if it uses referenced value.</p>
+	 */
+	_BOOL isReferenced() const;
+
+	/**
+	 * Set referenced.
+	 *
+	 * @param referenced Referenced.
+	 * @return
+	 *     <p>No results returned.</p>
+	 */
+	void setReferenced(_BOOL referenced);
+
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_REFERENCE_ATTRIBUTE_H_

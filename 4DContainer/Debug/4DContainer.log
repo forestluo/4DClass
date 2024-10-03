@@ -1,0 +1,36 @@
+﻿生成启动时间为 2016/1/19 15:48:31。
+     1>项目“E:\VisualStudio\4DClass_25\4DContainer\4DContainer.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 4DContainer.cpp 4DNode.cpp HashListContainer.cpp HashTreeContainer.cpp HashTreeNode.cpp KeyListNode.cpp KeyListNodeContainer.cpp ListNode.cpp ListNodeContainer.cpp ListNodeEnumeration.cpp ListQueueContainer.cpp RecycleBin.cpp
+         RecycleBin.cpp
+         ListQueueContainer.cpp
+         ListNodeEnumeration.cpp
+         ListNodeContainer.cpp
+         ListNode.cpp
+         KeyListNodeContainer.cpp
+         KeyListNode.cpp
+         HashTreeNode.cpp
+         HashTreeContainer.cpp
+         HashListContainer.cpp
+         4DNode.cpp
+         4DContainer.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass_25\Debug\4DContainer.lib" /NOLOGO Debug\4DContainer.obj
+         Debug\4DNode.obj
+         Debug\HashListContainer.obj
+         Debug\HashTreeContainer.obj
+         Debug\HashTreeNode.obj
+         Debug\KeyListNode.obj
+         Debug\KeyListNodeContainer.obj
+         Debug\ListNode.obj
+         Debug\ListNodeContainer.obj
+         Debug\ListNodeEnumeration.obj
+         Debug\ListQueueContainer.obj
+         Debug\RecycleBin.obj
+         4DContainer.vcxproj -> E:\VisualStudio\4DClass_25\Debug\4DContainer.lib
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DContainer\4DContainer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.08

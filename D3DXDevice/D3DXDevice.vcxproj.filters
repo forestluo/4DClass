@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pseye">
+      <UniqueIdentifier>{3974daa8-2e24-4f02-8370-976e2bfa6857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect">
+      <UniqueIdentifier>{ac64161d-aae6-435c-81d6-dfe1aaa2779e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect\attribute">
+      <UniqueIdentifier>{9d888788-d48f-45c3-9460-ebe458373a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect\attribute\instance">
+      <UniqueIdentifier>{22c6d350-1d5e-4d19-b61e-d301a00e738c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect\attribute\image">
+      <UniqueIdentifier>{49051946-fabe-473e-acfe-edb825fbceb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect\attribute\depth">
+      <UniqueIdentifier>{1aebfe15-e27e-4de3-b8ee-3eb08c16d574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinect\attribute\process">
+      <UniqueIdentifier>{cacffb1a-b373-4144-b04b-058e6d198787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d72b9fd0-98e3-4aee-a058-f3073cdc38d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\device">
+      <UniqueIdentifier>{ebf3f8a4-0d68-406e-8857-c41ebd47fb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\filter">
+      <UniqueIdentifier>{ace79dbc-3fe0-4355-ae66-3f7a7696c44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\texture">
+      <UniqueIdentifier>{bdcb7ca7-23a0-4da9-ad4a-eafc6ca180ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{c382a9b1-6f95-41d7-892c-e0c3e20ec3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="haar">
+      <UniqueIdentifier>{f7845d6a-7a9b-4dc5-9fcf-6fe6ee3c5bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="haar\attribute">
+      <UniqueIdentifier>{ad44d0ab-f283-4a75-871e-c351b223cd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depth">
+      <UniqueIdentifier>{21907429-b403-42fa-a13c-eab709a1edb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive">
+      <UniqueIdentifier>{c4cffafa-f010-4ec3-9a98-848ad849473b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\ground">
+      <UniqueIdentifier>{bd03c04b-2983-4fb6-b234-a981deabd5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\control">
+      <UniqueIdentifier>{0ba118c1-b202-4098-af0f-82ddbbcfdafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\item">
+      <UniqueIdentifier>{5de84091-e420-4f99-bbc1-e573fa7c95c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\kinematic">
+      <UniqueIdentifier>{de575366-8682-4aec-aec1-9683ab391a52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PSEyeDevice.h">
+      <Filter>pseye</Filter>
+    </ClInclude>
+    <ClInclude Include="HAARFilter.h">
+      <Filter>haar</Filter>
+    </ClInclude>
+    <ClInclude Include="HAARAttribute.h">
+      <Filter>haar\attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDevice.h">
+      <Filter>kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter.h">
+      <Filter>resource\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXInputTexture.h">
+      <Filter>resource\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCVImageAttribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageDevice.h">
+      <Filter>resource\device</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectInstanceAttribute.h">
+      <Filter>kinect\attribute\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectImageAttribute.h">
+      <Filter>kinect\attribute\image</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDepthAttribute.h">
+      <Filter>kinect\attribute\depth</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectProcessAttribute.h">
+      <Filter>kinect\attribute\process</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFilter.h">
+      <Filter>depth</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicPrimitiveObject.h">
+      <Filter>primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundMeshObject.h">
+      <Filter>primitive\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBallObject.h">
+      <Filter>primitive\control</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlItemObject.h">
+      <Filter>primitive\item</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicItemObject.h">
+      <Filter>primitive\kinematic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PSEyeDevice.cpp">
+      <Filter>pseye</Filter>
+    </ClCompile>
+    <ClCompile Include="HAARFilter.cpp">
+      <Filter>haar</Filter>
+    </ClCompile>
+    <ClCompile Include="HAARAttribute.cpp">
+      <Filter>haar\attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectDevice.cpp">
+      <Filter>kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDevice.cpp">
+      <Filter>resource\device</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter.cpp">
+      <Filter>resource\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXInputTexture.cpp">
+      <Filter>resource\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVImageAttribute.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectInstanceAttribute.cpp">
+      <Filter>kinect\attribute\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectImageAttribute.cpp">
+      <Filter>kinect\attribute\image</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectDepthAttribute.cpp">
+      <Filter>kinect\attribute\depth</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectProcessAttribute.cpp">
+      <Filter>kinect\attribute\process</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthFilter.cpp">
+      <Filter>depth</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicPrimitiveObject.cpp">
+      <Filter>primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundMeshObject.cpp">
+      <Filter>primitive\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBallObject.cpp">
+      <Filter>primitive\control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlItemObject.cpp">
+      <Filter>primitive\item</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicItemObject.cpp">
+      <Filter>primitive\kinematic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

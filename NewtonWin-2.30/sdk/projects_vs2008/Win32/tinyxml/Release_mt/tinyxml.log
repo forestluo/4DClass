@@ -1,0 +1,32 @@
+﻿Build started 2011/7/24 20:04:27.
+     1>Project "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\tinyxml.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/tinyxml/Release_mt\tinyxml.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/tinyxml/Release_mt\tinyxml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/tinyxml/Release_mt\\" /Fd"Win32/tinyxml/Release_mt\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt ..\thirdParty\tinyxml\tinystr.cpp ..\thirdParty\tinyxml\tinyxml.cpp ..\thirdParty\tinyxml\tinyxmlerror.cpp ..\thirdParty\tinyxml\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/tinyxml/Release_mt\tinyxml.lib" /NOLOGO Win32/tinyxml/Release_mt\tinystr.obj
+         Win32/tinyxml/Release_mt\tinyxml.obj
+         Win32/tinyxml/Release_mt\tinyxmlerror.obj
+         Win32/tinyxml/Release_mt\tinyxmlparser.obj
+         tinyxml.vcxproj -> E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32/tinyxml/Release_mt\tinyxml.lib
+       PostBuildEvent:
+         xcopy "Win32/tinyxml/Release_mt\tinyxml.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Release_mt\tinyxml.lib -> E:\VisualStudio\NewtonWin-2.30\sdk\X32\lib_vs9_mt\tinyxml.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/tinyxml/Release_mt\tinyxml.unsuccessfulbuild".
+         Touching "Win32/tinyxml/Release_mt\tinyxml.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\tinyxml.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.63

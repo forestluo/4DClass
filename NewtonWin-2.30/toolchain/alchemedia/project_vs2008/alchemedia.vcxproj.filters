@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="sceneWraper">
+      <UniqueIdentifier>{eb73aefe-acd0-4be7-abc4-5b533fc462bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\alchemedia.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\alchemediaDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\alchemedia.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\alchemediaCamera.cpp">
+      <Filter>sceneWraper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alchemediaScene.cpp">
+      <Filter>sceneWraper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alchemediaSceneNode.cpp">
+      <Filter>sceneWraper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alchemediaStaticMesh.cpp">
+      <Filter>sceneWraper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AlchemdiaSmoothMeshAngleDlg.cpp" />
+    <ClCompile Include="..\alchemedia.cpp" />
+    <ClCompile Include="..\alchemediaDoc.cpp" />
+    <ClCompile Include="..\alchemediaExplorerView.cpp" />
+    <ClCompile Include="..\alchemediaMainFrm.cpp" />
+    <ClCompile Include="..\alchemediaSplitterViewports.cpp" />
+    <ClCompile Include="..\alchemediaStdafx.cpp" />
+    <ClCompile Include="..\alchemediaTexCache.cpp" />
+    <ClCompile Include="..\alchemediaView.cpp" />
+    <ClCompile Include="..\alchemediaViewerToolBar.cpp" />
+    <ClCompile Include="..\ClassView.cpp" />
+    <ClCompile Include="..\OutputWnd.cpp" />
+    <ClCompile Include="..\PropertiesWnd.cpp" />
+    <ClCompile Include="..\ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\alchemediaCamera.h">
+      <Filter>sceneWraper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alchemediaScene.h">
+      <Filter>sceneWraper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alchemediaSceneNode.h">
+      <Filter>sceneWraper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alchemediaStaticMesh.h">
+      <Filter>sceneWraper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlchemdiaSmoothMeshAngleDlg.h" />
+    <ClInclude Include="..\alchemedia.h" />
+    <ClInclude Include="..\alchemediaDoc.h" />
+    <ClInclude Include="..\alchemediaExplorerView.h" />
+    <ClInclude Include="..\alchemediaMainFrm.h" />
+    <ClInclude Include="..\alchemediaSplitterViewports.h" />
+    <ClInclude Include="..\alchemediaStdafx.h" />
+    <ClInclude Include="..\alchemediaTexCache.h" />
+    <ClInclude Include="..\alchemediaView.h" />
+    <ClInclude Include="..\alchemediaViewerToolBar.h" />
+    <ClInclude Include="..\ClassView.h" />
+    <ClInclude Include="..\OutputWnd.h" />
+    <ClInclude Include="..\PropertiesWnd.h" />
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="..\targetver.h" />
+    <ClInclude Include="..\ViewTree.h" />
+  </ItemGroup>
+</Project>

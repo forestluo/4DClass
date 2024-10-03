@@ -1,0 +1,61 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// PrimitiveObject.h
+//  
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _PRIMITIVE_OBJECT_H_
+#define _PRIMITIVE_OBJECT_H_
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "D3DXPrimitiveObject.h"
+#include "PhysicsPrimitiveObject.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// PrimitiveObject
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class CPrimitiveObject :
+	public CD3DXPrimitiveObject,
+	public CPhysicsPrimitiveObject
+{
+public:
+	CPrimitiveObject(void);
+	virtual ~CPrimitiveObject(void);
+
+public:
+
+	/**
+	 * Physics end.
+	 *
+	 * @param None No parameter needed.
+	 * @return
+	 *     <p>No results returned.</p>
+	 */
+	virtual void physicsEnd();
+
+public:
+
+	/**
+	 * Select renderable.
+	 *
+	 * @param resourceManager Resource manager.
+	 * @param type Type of attribute.
+	 * @return
+	 *     <p>No results returned.</p>
+	 */
+	void selectRenderable(CResourceManager* resourceManager,_INTEGER type);
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_PRIMITIVE_OBJECT_H_

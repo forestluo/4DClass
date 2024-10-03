@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NewtonPhysics.h" />
+    <ClInclude Include="BodyManager.h">
+      <Filter>manager\body</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>manager\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="JointManager.h">
+      <Filter>manager\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>manager\world</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsTime.h">
+      <Filter>manager\time</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationManager.h">
+      <Filter>manager\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>manager\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEntity.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxEntity.h">
+      <Filter>entity\box</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleEntity.h">
+      <Filter>entity\capsule</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeEntity.h">
+      <Filter>entity\cone</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexEntity.h">
+      <Filter>entity\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderEntity.h">
+      <Filter>entity\cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereEntity.h">
+      <Filter>entity\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsJoint.h">
+      <Filter>joint</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsClassicJoint.h">
+      <Filter>joint\classic</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicBallJoint.h">
+      <Filter>joint\classic\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicCorkscrewJoint.h">
+      <Filter>joint\classic\corkscrew</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicHingeJoint.h">
+      <Filter>joint\classic\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicSliderJoint.h">
+      <Filter>joint\classic\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicUpVectorJoint.h">
+      <Filter>joint\classic\upvector</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicUniversalJoint.h">
+      <Filter>joint\classic\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom6DOFJoint.h">
+      <Filter>joint\custom\6dof</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBallJoint.h">
+      <Filter>joint\custom\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomHingeJoint.h">
+      <Filter>joint\custom\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCustomJoint.h">
+      <Filter>joint\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSliderJoint.h">
+      <Filter>joint\custom\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamferCylinderEntity.h">
+      <Filter>entity\chamferCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundEntity.h">
+      <Filter>entity\compound</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionManager.h">
+      <Filter>manager\interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightFieldEntity.h">
+      <Filter>entity\heightField</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEntity.h">
+      <Filter>entity\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionItem.h">
+      <Filter>manager\interaction\item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="entity">
+      <UniqueIdentifier>{7ee075a4-26e2-45b6-b997-b04a50f99b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint">
+      <UniqueIdentifier>{0144f5dd-9a11-4200-8a85-d763063a72c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{b9165f3f-9652-4209-a235-f6cedf964da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\body">
+      <UniqueIdentifier>{e9c0cfdb-0ee0-4ad6-b819-c0155bee64fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\entity">
+      <UniqueIdentifier>{ea277acc-2001-4a10-bb97-09ab194d9ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\joint">
+      <UniqueIdentifier>{1e9c8aff-9161-4ba8-98b1-38db4922c59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\shape">
+      <UniqueIdentifier>{731a256f-974f-40a7-af4e-bef9826fe2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\simulation">
+      <UniqueIdentifier>{fc6d2af3-4f87-4915-95e8-61c0106dd162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\time">
+      <UniqueIdentifier>{be13cb15-3377-4a21-8f5c-dcea746e9e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\world">
+      <UniqueIdentifier>{41280618-8598-4955-a536-902aaa8be9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\box">
+      <UniqueIdentifier>{99f136d4-3faa-492b-a8fd-6d4e88dd4683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\capsule">
+      <UniqueIdentifier>{d7a997db-cd5c-48da-8902-d36a8fcb038c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\cone">
+      <UniqueIdentifier>{bebe9012-0f88-4ff0-b118-836ec6890b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\convex">
+      <UniqueIdentifier>{8c5ea657-f23a-48d4-8ebc-2bffd33485d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\cylinder">
+      <UniqueIdentifier>{4300c966-1d5b-499e-b122-668e72d8b805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\sphere">
+      <UniqueIdentifier>{24546cfe-b816-4246-86d3-15760132010b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic">
+      <UniqueIdentifier>{e63e9b97-7987-4eaf-b248-f1f79fbceaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\custom">
+      <UniqueIdentifier>{52a63b1b-6a2b-4a72-841c-6db3d1a41530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\ball">
+      <UniqueIdentifier>{e3fdd41c-b667-466c-a9a8-46b97f2725e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\slider">
+      <UniqueIdentifier>{2df9dc0d-38a2-4498-83ff-7d7cb4c76cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\hinge">
+      <UniqueIdentifier>{2a1aa5c1-753d-482f-8533-e5fa769a79d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\universal">
+      <UniqueIdentifier>{7e4821c4-733b-423a-ab8c-b2a575bbd549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\upvector">
+      <UniqueIdentifier>{26bb57b5-de0b-4abb-9740-bca3acd283eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\classic\corkscrew">
+      <UniqueIdentifier>{d08324c4-19bf-42a4-9f0f-b171c19d7e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\custom\6dof">
+      <UniqueIdentifier>{91d7109d-e7f1-4d2e-a424-0b2376026f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\custom\ball">
+      <UniqueIdentifier>{ace24ca1-4086-447d-8b39-afcb0192aa57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\custom\hinge">
+      <UniqueIdentifier>{61337578-a115-49a7-b04d-8a178ecd0617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joint\custom\slider">
+      <UniqueIdentifier>{5990b666-2286-4ad5-9b2d-7f3a30acffd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\chamferCylinder">
+      <UniqueIdentifier>{429984e6-f631-4e94-a6ae-d7fa9c52da86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\compound">
+      <UniqueIdentifier>{15033d89-0b8b-4b41-af5b-170378a1dee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\interaction">
+      <UniqueIdentifier>{c24b1b08-5c90-48ce-83b1-c77dcb167741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\heightField">
+      <UniqueIdentifier>{3d00d9ed-8da6-4164-a814-29ef7434d3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\mesh">
+      <UniqueIdentifier>{c2d39ea2-f3ea-478c-b092-455dab0cde3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\interaction\item">
+      <UniqueIdentifier>{3efe5b46-9807-4c73-9a3a-2927839f7f44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BodyManager.cpp">
+      <Filter>manager\body</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>manager\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="JointManager.cpp">
+      <Filter>manager\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>manager\world</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsTime.cpp">
+      <Filter>manager\time</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationManager.cpp">
+      <Filter>manager\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>manager\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEntity.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxEntity.cpp">
+      <Filter>entity\box</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleEntity.cpp">
+      <Filter>entity\capsule</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeEntity.cpp">
+      <Filter>entity\cone</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexEntity.cpp">
+      <Filter>entity\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderEntity.cpp">
+      <Filter>entity\cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereEntity.cpp">
+      <Filter>entity\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsJoint.cpp">
+      <Filter>joint</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsClassicJoint.cpp">
+      <Filter>joint\classic</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicBallJoint.cpp">
+      <Filter>joint\classic\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicCorkscrewJoint.cpp">
+      <Filter>joint\classic\corkscrew</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicHingeJoint.cpp">
+      <Filter>joint\classic\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicSliderJoint.cpp">
+      <Filter>joint\classic\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicUpVectorJoint.cpp">
+      <Filter>joint\classic\upvector</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicUniversalJoint.cpp">
+      <Filter>joint\classic\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom6DOFJoint.cpp">
+      <Filter>joint\custom\6dof</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBallJoint.cpp">
+      <Filter>joint\custom\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomHingeJoint.cpp">
+      <Filter>joint\custom\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCustomJoint.cpp">
+      <Filter>joint\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSliderJoint.cpp">
+      <Filter>joint\custom\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamferCylinderEntity.cpp">
+      <Filter>entity\chamferCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundEntity.cpp">
+      <Filter>entity\compound</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionManager.cpp">
+      <Filter>manager\interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightFieldEntity.cpp">
+      <Filter>entity\heightField</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEntity.cpp">
+      <Filter>entity\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionItem.cpp">
+      <Filter>manager\interaction\item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

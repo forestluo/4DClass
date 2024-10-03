@@ -1,0 +1,81 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// ChamferCylinderEntity.cpp
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "ChamferCylinderEntity.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CChamferCylinderEntity
+//
+// Default construction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CChamferCylinderEntity::CChamferCylinderEntity(void)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CChamferCylinderEntity
+//
+// Default construction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CChamferCylinderEntity::CChamferCylinderEntity(_FLOAT mass)
+	: CPhysicsEntity(mass)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CChamferCylinderEntity
+//
+// Default deconstruction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CChamferCylinderEntity::~CChamferCylinderEntity(void)
+{
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// CreateShape
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+_OBJECT CChamferCylinderEntity::createShape(CPhysicsManager *manager,CListNodeContainer& shapes)
+{
+#ifdef _DEBUG
+	assert(manager != _NULL);
+#endif
+
+	dVector minBox;
+	dVector maxBox;
+	//Get the Bounding Box for this entity.
+	getBoundingBox(minBox,maxBox);
+
+	//Calculate the box size and dimensions of the physics collision shape. 
+	dVector size(maxBox - minBox);
+	dVector origin((maxBox + minBox).Scale(0.5f));
+	size.m_w = 1.0f;
+	origin.m_w = 1.0f;
+
+	//Make and offset matrix for this collision shape.
+	dMatrix offset(GetIdentityMatrix());
+	offset.m_posit = origin;
+
+	//Now create a collision chamfer cylinder for this entity.
+	return manager->createChamferCylinderShape((size.m_x + size.m_z) / 4.0f - size.m_y / 2.0f,size.m_y);
+}

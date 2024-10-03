@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{ef4bebdb-ec81-4645-8bff-eb814b5b87f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\box">
+      <UniqueIdentifier>{15915257-b5ea-451d-a116-1b4f98affc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\control">
+      <UniqueIdentifier>{388fd6d7-37c2-49d9-b514-8d2d3d595afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\identity">
+      <UniqueIdentifier>{a45d59f1-bdec-4d2c-90a4-d2cce3047e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\type">
+      <UniqueIdentifier>{3257c5c7-1e31-4b52-a232-685ada55a5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\position">
+      <UniqueIdentifier>{724c18ed-518d-4fb5-a572-e7da67c9bcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\relation">
+      <UniqueIdentifier>{20ebb978-972d-4036-b52d-42603693b1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\child">
+      <UniqueIdentifier>{67d46b95-d4ba-4359-8d77-b4815aaef03c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxAttribute.cpp">
+      <Filter>attribute\box</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlAttribute.cpp">
+      <Filter>attribute\control</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentityAttribute.cpp">
+      <Filter>attribute\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationAttribute.cpp">
+      <Filter>attribute\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionAttribute.cpp">
+      <Filter>attribute\position</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeAttribute.cpp">
+      <Filter>attribute\type</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildAttribute.cpp">
+      <Filter>attribute\child</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoxAttribute.h">
+      <Filter>attribute\box</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlAttribute.h">
+      <Filter>attribute\control</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentityAttribute.h">
+      <Filter>attribute\identity</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationAttribute.h">
+      <Filter>attribute\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionAttribute.h">
+      <Filter>attribute\position</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeAttribute.h">
+      <Filter>attribute\type</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildAttribute.h">
+      <Filter>attribute\child</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h" />
+  </ItemGroup>
+</Project>

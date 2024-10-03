@@ -1,0 +1,67 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// 4DNode.h
+//  
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _4D_NODE_H_
+#define _4D_NODE_H_
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "4DType.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// 4DNode
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class C4DNode
+{
+private:
+	//Value
+	_OBJECT value;
+
+public:
+	C4DNode(void);
+	C4DNode(_OBJECT vaue);
+	virtual ~C4DNode(void);
+
+	/**
+	 * Clear a object at current position.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>No results returned.</p>
+	 */
+	void clearValue();
+
+	/**
+	 * Get value at current position.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Value at current position.</p>
+	 */
+	_OBJECT getValue();
+
+	/**
+	 * Set value at current position.
+	 *
+	 * @param value Value for setting.
+	 * @return
+	 *     <p>No results returned.</p>
+	 */
+	void setValue(_OBJECT value);
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_4D_NODE_H_

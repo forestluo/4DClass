@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5793F480-9BDE-4400-8C16-8183BF21505B}</ProjectGuid>
+    <RootNamespace>alchemedia</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)/obj\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)/obj\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;../../../sdk;../../../sdk/dMath;../../../sdk/dScene;../../../sdk/dContainers;../../../sdk/dCustomJoints;../../../sdk/thirdParty/tinyxml;../../../sdk/thirdParty/glew/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>alchemediaStdAfx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;newton_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../$(Platform)/$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>../../../sdk/x32/dll_vs9;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "../../../sdk/x32/dll_vs9/*.dll" "../$(Platform)/*.*"  /F /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../;../../../sdk;../../../sdk/dMath;../../../sdk/dScene;../../../sdk/dContainers;../../../sdk/dCustomJoints;../../../sdk/thirdParty/tinyxml;../../../sdk/thirdParty/glew/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>alchemediaStdAfx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;newton.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../$(Platform)/$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>../../../sdk/x32/dll_vs9;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "../../../sdk/x32/dll_vs9/*.dll" "../$(Platform)/*.*"  /F /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\res\alchemedia.ico" />
+    <None Include="..\res\alchemediaDoc.ico" />
+    <None Include="..\res\class_view.ico" />
+    <None Include="..\res\class_view_hc.ico" />
+    <None Include="..\res\classview.bmp" />
+    <None Include="..\res\classview_hc.bmp" />
+    <None Include="..\res\explorer.bmp" />
+    <None Include="..\res\explorer_hc.bmp" />
+    <None Include="..\res\file_view.ico" />
+    <None Include="..\res\file_view_hc.ico" />
+    <None Include="res\fileview.bmp" />
+    <None Include="..\res\menuimages.bmp" />
+    <None Include="..\res\menuimages_hc.bmp" />
+    <None Include="..\res\output_wnd.ico" />
+    <None Include="..\res\output_wnd_hc.ico" />
+    <None Include="..\res\properties.bmp" />
+    <None Include="..\res\properties_hc.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="..\res\properties_wnd.ico" />
+    <None Include="..\res\properties_wnd_hc.ico" />
+    <None Include="..\res\sort.bmp" />
+    <None Include="..\res\sort_hc.bmp" />
+    <None Include="..\res\Toolbar.bmp" />
+    <None Include="..\res\toolbar1.bmp" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\alchemedia.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\alchemediaCamera.cpp" />
+    <ClCompile Include="..\alchemediaScene.cpp" />
+    <ClCompile Include="..\alchemediaSceneNode.cpp" />
+    <ClCompile Include="..\alchemediaStaticMesh.cpp" />
+    <ClCompile Include="..\AlchemdiaSmoothMeshAngleDlg.cpp" />
+    <ClCompile Include="..\alchemedia.cpp" />
+    <ClCompile Include="..\alchemediaDoc.cpp" />
+    <ClCompile Include="..\alchemediaExplorerView.cpp" />
+    <ClCompile Include="..\alchemediaMainFrm.cpp" />
+    <ClCompile Include="..\alchemediaSplitterViewports.cpp" />
+    <ClCompile Include="..\alchemediaStdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\alchemediaTexCache.cpp" />
+    <ClCompile Include="..\alchemediaView.cpp" />
+    <ClCompile Include="..\alchemediaViewerToolBar.cpp" />
+    <ClCompile Include="..\ClassView.cpp" />
+    <ClCompile Include="..\OutputWnd.cpp" />
+    <ClCompile Include="..\PropertiesWnd.cpp" />
+    <ClCompile Include="..\ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\alchemediaCamera.h" />
+    <ClInclude Include="..\alchemediaScene.h" />
+    <ClInclude Include="..\alchemediaSceneNode.h" />
+    <ClInclude Include="..\alchemediaStaticMesh.h" />
+    <ClInclude Include="..\AlchemdiaSmoothMeshAngleDlg.h" />
+    <ClInclude Include="..\alchemedia.h" />
+    <ClInclude Include="..\alchemediaDoc.h" />
+    <ClInclude Include="..\alchemediaExplorerView.h" />
+    <ClInclude Include="..\alchemediaMainFrm.h" />
+    <ClInclude Include="..\alchemediaSplitterViewports.h" />
+    <ClInclude Include="..\alchemediaStdafx.h" />
+    <ClInclude Include="..\alchemediaTexCache.h" />
+    <ClInclude Include="..\alchemediaView.h" />
+    <ClInclude Include="..\alchemediaViewerToolBar.h" />
+    <ClInclude Include="..\ClassView.h" />
+    <ClInclude Include="..\OutputWnd.h" />
+    <ClInclude Include="..\PropertiesWnd.h" />
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="..\targetver.h" />
+    <ClInclude Include="..\ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\sdk\projects_vs2008\dContainers.vcxproj">
+      <Project>{f67c4593-a914-4ddf-8cb5-c59a3ef3ece0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\sdk\projects_vs2008\dMath.vcxproj">
+      <Project>{cbe9e751-e58b-46c1-b6b0-873670d0f981}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\sdk\projects_vs2008\dScene.vcxproj">
+      <Project>{b5eec82d-938f-44c9-89bb-4a058581750b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\sdk\projects_vs2008\tinyxml.vcxproj">
+      <Project>{18e509cf-46d2-4749-b3bb-160937cf2481}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="\Newton_200\NewtonSDK\toolchain\alchemedia\alchemedia.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

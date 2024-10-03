@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E14079D-0FC3-46C5-BAF3-478ECB4C58A4}</ProjectGuid>
+    <RootNamespace>My4DNewton</RootNamespace>
+    <ProjectName>4DNewton</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\4DJoint;..\4DRenderable;..\4DPhysics;..\4DMath;..\4DWorld;..\4DBasic;..\4DString;..\4DObject;..\4DCollision;..\4DContainer;..\4DGeometry;../NewtonWin-2.30/sdk/;../NewtonWin-2.30/sdk/dMath;../NewtonWin-2.30/sdk/dCustomJoints;$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BodyManager.h" />
+    <ClInclude Include="BoxEntity.h" />
+    <ClInclude Include="CapsuleEntity.h" />
+    <ClInclude Include="ChamferCylinderEntity.h" />
+    <ClInclude Include="ClassicBallJoint.h" />
+    <ClInclude Include="ClassicCorkscrewJoint.h" />
+    <ClInclude Include="ClassicHingeJoint.h" />
+    <ClInclude Include="ClassicSliderJoint.h" />
+    <ClInclude Include="ClassicUniversalJoint.h" />
+    <ClInclude Include="ClassicUpVectorJoint.h" />
+    <ClInclude Include="CompoundEntity.h" />
+    <ClInclude Include="ConeEntity.h" />
+    <ClInclude Include="ConvexEntity.h" />
+    <ClInclude Include="Custom6DOFJoint.h" />
+    <ClInclude Include="CustomBallJoint.h" />
+    <ClInclude Include="CustomHingeJoint.h" />
+    <ClInclude Include="CustomSliderJoint.h" />
+    <ClInclude Include="CylinderEntity.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="HeightFieldEntity.h" />
+    <ClInclude Include="InteractionItem.h" />
+    <ClInclude Include="JointManager.h" />
+    <ClInclude Include="MeshEntity.h" />
+    <ClInclude Include="NewtonPhysics.h" />
+    <ClInclude Include="PhysicsClassicJoint.h" />
+    <ClInclude Include="PhysicsCustomJoint.h" />
+    <ClInclude Include="PhysicsEntity.h" />
+    <ClInclude Include="PhysicsJoint.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="PhysicsTime.h" />
+    <ClInclude Include="PhysicsWorld.h" />
+    <ClInclude Include="InteractionManager.h" />
+    <ClInclude Include="ShapeManager.h" />
+    <ClInclude Include="SimulationManager.h" />
+    <ClInclude Include="SphereEntity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BodyManager.cpp" />
+    <ClCompile Include="BoxEntity.cpp" />
+    <ClCompile Include="CapsuleEntity.cpp" />
+    <ClCompile Include="ChamferCylinderEntity.cpp" />
+    <ClCompile Include="ClassicBallJoint.cpp" />
+    <ClCompile Include="ClassicCorkscrewJoint.cpp" />
+    <ClCompile Include="ClassicHingeJoint.cpp" />
+    <ClCompile Include="ClassicSliderJoint.cpp" />
+    <ClCompile Include="ClassicUniversalJoint.cpp" />
+    <ClCompile Include="ClassicUpVectorJoint.cpp" />
+    <ClCompile Include="CompoundEntity.cpp" />
+    <ClCompile Include="ConeEntity.cpp" />
+    <ClCompile Include="ConvexEntity.cpp" />
+    <ClCompile Include="Custom6DOFJoint.cpp" />
+    <ClCompile Include="CustomBallJoint.cpp" />
+    <ClCompile Include="CustomHingeJoint.cpp" />
+    <ClCompile Include="CustomSliderJoint.cpp" />
+    <ClCompile Include="CylinderEntity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="HeightFieldEntity.cpp" />
+    <ClCompile Include="InteractionItem.cpp" />
+    <ClCompile Include="JointManager.cpp" />
+    <ClCompile Include="MeshEntity.cpp" />
+    <ClCompile Include="PhysicsClassicJoint.cpp" />
+    <ClCompile Include="PhysicsCustomJoint.cpp" />
+    <ClCompile Include="PhysicsEntity.cpp" />
+    <ClCompile Include="PhysicsJoint.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="PhysicsTime.cpp" />
+    <ClCompile Include="PhysicsWorld.cpp" />
+    <ClCompile Include="InteractionManager.cpp" />
+    <ClCompile Include="ShapeManager.cpp" />
+    <ClCompile Include="SimulationManager.cpp" />
+    <ClCompile Include="SphereEntity.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{6e5013ae-3781-44cc-8911-85337a19329a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\joint">
+      <UniqueIdentifier>{0605367e-e3a1-42b2-b8b2-ec7fd2fc85d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\relation">
+      <UniqueIdentifier>{571ac358-ced0-4208-8b26-90fb968e519d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JointAttribute.cpp">
+      <Filter>attribute\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="JointRelationAttribute.cpp">
+      <Filter>attribute\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldJointObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JointAttribute.h">
+      <Filter>attribute\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="JointRelationAttribute.h">
+      <Filter>attribute\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldJointObject.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+头文件路径
+
+1) 内部文件路径：
+..\4DMath;..\4DBasic;..\4DString;..\4DGeometry;..\4DContainer;..\4DCollision;..\4DWorld;..\4DJoint;..\4DPhysics;..\4DNewton;..\4DRenderable;..\D3DXResource;..\D3DXRenderable;..\D3DXPhysics;..\D3DXApplication;
+
+2) DXUT文件路径：
+..\4DMisc;..\DXUT\Core;..\DXUT\Optional;
+
+3) DirectX文件路径：
+$(DXSDK_DIR)\Include;
+
+4) 所有模块头文件路径：
+..\4DMath;..\4DBasic;..\4DString;..\4DGeometry;..\4DContainer;..\4DCollision;..\4DWorld;..\4DJoint;..\4DPhysics;..\4DNewton;..\4DRenderable;..\D3DXResource;..\D3DXRenderable;..\D3DXPhysics;..\D3DXApplication;..\4DMisc;..\DXUT\Core;..\DXUT\Optional;$(DXSDK_DIR)\Include;$(IncludePath)

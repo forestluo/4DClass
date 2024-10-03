@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13DC6DB7-A99F-417E-AAC1-310A98B4D237}</ProjectGuid>
+    <RootNamespace>D3DXRenderable</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\4DJoint;..\4DMath;..\4DBasic;..\4DString;..\4DGeometry;..\4DContainer;..\4DCollision;..\4DWorld;..\4DPhysics;..\4DNewton;..\4DRenderable;..\D3DXResource;..\D3DXRenderable;..\D3DXPhysics;..\D3DXApplication;..\4DMisc;..\DXUT\Core;..\DXUT\Optional;$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DXAxisObject.cpp" />
+    <ClCompile Include="D3DXClassicBallJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXClassicCorkscrewJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXClassicHingeJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXClassicSliderJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXClassicUniversalJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXClassicUpVectorJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXCustom6DOFJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXCustomBallJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXCustomSliderJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXCustomHingeJointObjectProxy.cpp" />
+    <ClCompile Include="D3DXJointObjectProxy.cpp" />
+    <ClCompile Include="ColorAttribute.cpp" />
+    <ClCompile Include="ControllerAttribute.cpp" />
+    <ClCompile Include="D3DXCompoundObject.cpp" />
+    <ClCompile Include="D3DXJointObject.cpp" />
+    <ClCompile Include="D3DXPrimitiveObject.cpp" />
+    <ClCompile Include="EffectAttribute.cpp" />
+    <ClCompile Include="JointObjectSketcher.cpp" />
+    <ClCompile Include="ChartletAttribute.cpp" />
+    <ClCompile Include="ObjectController.cpp" />
+    <ClCompile Include="ObjectSketcher.cpp" />
+    <ClCompile Include="PickerAttribute.cpp" />
+    <ClCompile Include="D3DXRenderableObject.cpp" />
+    <ClCompile Include="D3DXPlusObject.cpp" />
+    <ClCompile Include="Sketch0.cpp" />
+    <ClCompile Include="Sketch1.cpp" />
+    <ClCompile Include="SketcherAttribute.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DXAxisObject.h" />
+    <ClInclude Include="ColorAttribute.h" />
+    <ClInclude Include="ControllerAttribute.h" />
+    <ClInclude Include="D3DXClassicBallJointObjectProxy.h" />
+    <ClInclude Include="D3DXClassicCorkscrewJointObjectProxy.h" />
+    <ClInclude Include="D3DXClassicHingeJointObjectProxy.h" />
+    <ClInclude Include="D3DXClassicSliderJointObjectProxy.h" />
+    <ClInclude Include="D3DXClassicUniversalJointObjectProxy.h" />
+    <ClInclude Include="D3DXClassicUpVectorJointObjectProxy.h" />
+    <ClInclude Include="D3DXCompoundObject.h" />
+    <ClInclude Include="D3DXCustom6DOFJointObjectProxy.h" />
+    <ClInclude Include="D3DXCustomBallJointObjectProxy.h" />
+    <ClInclude Include="D3DXCustomSliderJointObjectProxy.h" />
+    <ClInclude Include="D3DXCustomHingeJointObjectProxy.h" />
+    <ClInclude Include="D3DXJointObject.h" />
+    <ClInclude Include="D3DXJointObjectProxy.h" />
+    <ClInclude Include="D3DXPrimitiveObject.h" />
+    <ClInclude Include="EffectAttribute.h" />
+    <ClInclude Include="JointObjectSketcher.h" />
+    <ClInclude Include="ChartletAttribute.h" />
+    <ClInclude Include="ObjectController.h" />
+    <ClInclude Include="ObjectSketcher.h" />
+    <ClInclude Include="PickerAttribute.h" />
+    <ClInclude Include="D3DXRenderableObject.h" />
+    <ClInclude Include="D3DXPlusObject.h" />
+    <ClInclude Include="Sketch0.h" />
+    <ClInclude Include="Sketch1.h" />
+    <ClInclude Include="SketcherAttribute.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

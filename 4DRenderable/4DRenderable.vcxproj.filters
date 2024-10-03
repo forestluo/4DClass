@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{9d519c8a-14a9-4d04-97cb-67245837c37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\index">
+      <UniqueIdentifier>{d4c37fd4-c54f-419a-bf27-4d3d9c5451d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\normal">
+      <UniqueIdentifier>{14a6c2bc-2a3d-47a7-9dbd-323525bf92dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\reference">
+      <UniqueIdentifier>{cd857945-fb13-4622-ba2e-3a4832663470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\texture">
+      <UniqueIdentifier>{da440da3-18c9-4b45-8fdc-dc936e626eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\vertex">
+      <UniqueIdentifier>{fefde786-f79b-4251-b4c1-03d5e48ef1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive">
+      <UniqueIdentifier>{23931934-2f51-43c8-a843-141ab9f4ca1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\capsule">
+      <UniqueIdentifier>{c33716db-778c-409e-ac62-f0379b46efaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\cone">
+      <UniqueIdentifier>{1d62e57b-265b-481e-a630-4738d8855c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\cuboid">
+      <UniqueIdentifier>{729834f7-c772-4232-9444-4695407ed51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\cylinder">
+      <UniqueIdentifier>{5f0cdba6-20a6-4512-bc09-e93a284f12a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\frustum">
+      <UniqueIdentifier>{52451885-4a43-463a-b985-8375c5e3542f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\quadrangle">
+      <UniqueIdentifier>{63716e0a-53d4-4b9c-bdb5-d4a678010881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\sphere">
+      <UniqueIdentifier>{76010877-cb8f-4139-bf9d-dca40d72221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\triangle">
+      <UniqueIdentifier>{6a604e40-5d06-4073-b5b9-cffbb7982a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\chamferCylinder">
+      <UniqueIdentifier>{505aa92c-2017-4089-a16b-c7744ca6353f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\circle">
+      <UniqueIdentifier>{fe5a4446-ae15-4bbd-ad11-d9f286d84807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\polygon">
+      <UniqueIdentifier>{76e2283f-a9ec-485a-a1f7-77738f349b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitive\grid">
+      <UniqueIdentifier>{c9b0f797-5c3d-4d2e-81ce-641b506898e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IndexAttribute.cpp">
+      <Filter>attribute\index</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalAttribute.cpp">
+      <Filter>attribute\normal</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceAttribute.cpp">
+      <Filter>attribute\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAttribute.cpp">
+      <Filter>attribute\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexAttribute.cpp">
+      <Filter>attribute\vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleAttribute.cpp">
+      <Filter>primitive\capsule</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleAttribute.cpp">
+      <Filter>primitive\triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereAttribute.cpp">
+      <Filter>primitive\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceAttribute.cpp">
+      <Filter>primitive\cuboid</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadrangleAttribute.cpp">
+      <Filter>primitive\quadrangle</Filter>
+    </ClCompile>
+    <ClCompile Include="HemisphereAttribute.cpp">
+      <Filter>primitive\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumAttribute.cpp">
+      <Filter>primitive\frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderAttribute.cpp">
+      <Filter>primitive\cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboidAttribute.cpp">
+      <Filter>primitive\cuboid</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeAttribute.cpp">
+      <Filter>primitive\cone</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableAttribute.cpp" />
+    <ClCompile Include="PrimitiveAttribute.cpp" />
+    <ClCompile Include="ChamferCylinderAttribute.cpp">
+      <Filter>primitive\chamferCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleAttribute.cpp">
+      <Filter>primitive\circle</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonAttribute.cpp">
+      <Filter>primitive\polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="GridAttribute.cpp">
+      <Filter>primitive\grid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IndexAttribute.h">
+      <Filter>attribute\index</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAttribute.h">
+      <Filter>attribute\normal</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceAttribute.h">
+      <Filter>attribute\reference</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAttribute.h">
+      <Filter>attribute\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexAttribute.h">
+      <Filter>attribute\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleAttribute.h">
+      <Filter>primitive\capsule</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleAttribute.h">
+      <Filter>primitive\triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereAttribute.h">
+      <Filter>primitive\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceAttribute.h">
+      <Filter>primitive\cuboid</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadrangleAttribute.h">
+      <Filter>primitive\quadrangle</Filter>
+    </ClInclude>
+    <ClInclude Include="HemisphereAttribute.h">
+      <Filter>primitive\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumAttribute.h">
+      <Filter>primitive\frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderAttribute.h">
+      <Filter>primitive\cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboidAttribute.h">
+      <Filter>primitive\cuboid</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeAttribute.h">
+      <Filter>primitive\cone</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableAttribute.h" />
+    <ClInclude Include="ChamferCylinderAttribute.h">
+      <Filter>primitive\chamferCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleAttribute.h">
+      <Filter>primitive\circle</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonAttribute.h">
+      <Filter>primitive\polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="GridAttribute.h">
+      <Filter>primitive\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveAttribute.h" />
+  </ItemGroup>
+</Project>

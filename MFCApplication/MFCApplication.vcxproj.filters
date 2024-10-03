@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xd3d">
+      <UniqueIdentifier>{cc32c819-7cea-44ea-ab1f-5362a829a998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dutil.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="XD3D.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="XD3DEnum.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="XD3DSettings.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="XD3DUtil.cpp">
+      <Filter>xd3d</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dutil.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="TArray.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="XD3D.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="XD3DEnum.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="XD3DSettings.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="XD3DUtil.h">
+      <Filter>xd3d</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿Build started 2011/7/24 20:02:35.
+     1>Project "E:\VisualStudio\NewtonWin-2.30\toolchain\blenderPlugin\pyScene\project_vs2008\pyScene.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release/obj\pyScene.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _BuildUsingSWIG:
+         cmd.exe /C "C:\Users\罗堃\AppData\Local\Temp\7ea83fc674c74d8787514bbcbac84f79.cmd"
+         swigwin-2.0.0\swig.exe -c++ -python "E:\VisualStudio\NewtonWin-2.30\toolchain\blenderPlugin\pyScene\pyScene.i"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../sdk /I../../../../sdk/dMath /I../../../../sdk/dScene /I../../../../sdk/dContainers /I../../../../sdk/thirdParty/tinyxml /I\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PYSCENE_EXPORTS /D _NEWTON_USE_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Win32\Release/obj\pyScene.pch" /Fo"Win32\Release/obj\\" /Fd"Win32\Release/obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../sdk /I../../../../sdk/dMath /I../../../../sdk/dScene /I../../../../sdk/dContainers /I../../../../sdk/thirdParty/tinyxml /I\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PYSCENE_EXPORTS /D _NEWTON_USE_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Win32\Release/obj\pyScene.pch" /Fo"Win32\Release/obj\\" /Fd"Win32\Release/obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\pyBaseNodeInfo.cpp ..\pyMaterial.cpp ..\pyMesh.cpp ..\pyObject.cpp ..\pyRigidBody.cpp ..\pyScene.cpp ..\pyTexture.cpp ..\pyTypes.cpp
+         pyBaseNodeInfo.cpp
+         pyMaterial.cpp
+         pyMesh.cpp
+         pyObject.cpp
+         pyRigidBody.cpp
+         pyScene.cpp
+         pyTexture.cpp
+         pyTypes.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../sdk /I../../../../sdk/dMath /I../../../../sdk/dScene /I../../../../sdk/dContainers /I../../../../sdk/thirdParty/tinyxml /I\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PYSCENE_EXPORTS /D _NEWTON_USE_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release/obj\\" /Fd"Win32\Release/obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\pyScene_wrap.cxx
+         pyScene_wrap.cxx
+     1>..\pyScene_wrap.cxx(149): fatal error C1083: Cannot open include file: 'Python.h': No such file or directory
+     1>Done Building Project "E:\VisualStudio\NewtonWin-2.30\toolchain\blenderPlugin\pyScene\project_vs2008\pyScene.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.47

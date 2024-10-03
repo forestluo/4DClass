@@ -1,0 +1,105 @@
+﻿Build started 2011/7/25 11:29:45.
+     1>Project "D:\physics\NewtonWin-2.30\samples\project_vs2008\newtonDemos.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32/newtonDemos/Debug_mt\newtonDemos.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../sdkDemos /I../sdkDemos/toolBox /I../sdkDemos/windowsMain /I../../sdk /I../../sdk/dMath /I../../sdk/dScene /I../../sdk/dContainers /I../../sdk/dCustomJoints /I../../sdk/thirdParty/tinyxml /I../../sdk/thirdParty/glew/include /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"toolbox_stdafx.h" /Fp"Win32/newtonDemos/Debug_mt\newtonDemos.pch" /Fo"Win32/newtonDemos/Debug_mt\\" /Fd"Win32/newtonDemos/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\sdkDemos\toolBox\toolbox_stdafx.cpp
+         toolbox_stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../sdkDemos /I../sdkDemos/toolBox /I../sdkDemos/windowsMain /I../../sdk /I../../sdk/dMath /I../../sdk/dScene /I../../sdk/dContainers /I../../sdk/dCustomJoints /I../../sdk/thirdParty/tinyxml /I../../sdk/thirdParty/glew/include /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"toolbox_stdafx.h" /Fp"Win32/newtonDemos/Debug_mt\newtonDemos.pch" /Fo"Win32/newtonDemos/Debug_mt\\" /Fd"Win32/newtonDemos/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\sdkDemos\toolBox\DebugDisplay.cpp ..\sdkDemos\toolBox\dHeightResolutionTimer.cpp ..\sdkDemos\toolBox\dRuntimeProfiler.cpp ..\sdkDemos\toolBox\dSimulationThread.cpp ..\sdkDemos\toolBox\glContext.cpp ..\sdkDemos\toolBox\OpenGlUtil.cpp ..\sdkDemos\toolBox\SkyBox.cpp ..\sdkDemos\toolBox\TargaToOpenGl.cpp ..\sdkDemos\demos\BasicFriction.cpp ..\sdkDemos\demos\BasicSphereSpin.cpp ..\sdkDemos\demos\BasicStacking.cpp ..\sdkDemos\demos\ClosestDistance.cpp ..\sdkDemos\demos\LoadSaveScene.cpp ..\sdkDemos\DemoCamera.cpp ..\sdkDemos\DemoEntity.cpp ..\sdkDemos\DemoEntityManager.cpp ..\sdkDemos\DemoMesh.cpp ..\sdkDemos\windowsMain\NewtonDemos.cpp ..\sdkDemos\PhysicsUtils.cpp ..\sdkDemos\sdkDemos.cpp
+         sdkDemos.cpp
+         PhysicsUtils.cpp
+         NewtonDemos.cpp
+         DemoMesh.cpp
+         DemoEntityManager.cpp
+         DemoEntity.cpp
+         DemoCamera.cpp
+         LoadSaveScene.cpp
+         ClosestDistance.cpp
+         BasicStacking.cpp
+         BasicSphereSpin.cpp
+         BasicFriction.cpp
+         TargaToOpenGl.cpp
+         SkyBox.cpp
+         OpenGlUtil.cpp
+         glContext.cpp
+         dSimulationThread.cpp
+         dRuntimeProfiler.cpp
+         dHeightResolutionTimer.cpp
+         DebugDisplay.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Win32/newtonDemos/Debug_mt\newtonDemos.res" ..\sdkDemos\newtonDemos.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32/newtonDemos/Debug_mt\newtonDemos.exe.embed.manifest.res" Win32/newtonDemos/Debug_mt\newtonDemos_manifest.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\physics\NewtonWin-2.30\samples\project_vs2008\Win32/newtonDemos/Debug_mt\newtonDemos.exe) does not match the Linker's OutputFile property value (D:\physics\NewtonWin-2.30\samples\bin\X32\NewtonDemos_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(newtonDemos) does not match the Linker's OutputFile property value (NewtonDemos_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/X32/NewtonDemos_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../sdk/x32/dll_vs9 glu32.lib opengl32.lib newton_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/newtonDemos/Debug_mt\newtonDemos.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Win32/newtonDemos/Debug_mt\NewtonDemos.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32/newtonDemos/Debug_mt\newtonDemos.lib" /MACHINE:X86 Win32/newtonDemos/Debug_mt\newtonDemos.res
+         Win32/newtonDemos/Debug_mt\newtonDemos.exe.embed.manifest.res
+         Win32/newtonDemos/Debug_mt\DebugDisplay.obj
+         Win32/newtonDemos/Debug_mt\dHeightResolutionTimer.obj
+         Win32/newtonDemos/Debug_mt\dRuntimeProfiler.obj
+         Win32/newtonDemos/Debug_mt\dSimulationThread.obj
+         Win32/newtonDemos/Debug_mt\glContext.obj
+         Win32/newtonDemos/Debug_mt\OpenGlUtil.obj
+         Win32/newtonDemos/Debug_mt\SkyBox.obj
+         Win32/newtonDemos/Debug_mt\TargaToOpenGl.obj
+         Win32/newtonDemos/Debug_mt\toolbox_stdafx.obj
+         Win32/newtonDemos/Debug_mt\BasicFriction.obj
+         Win32/newtonDemos/Debug_mt\BasicSphereSpin.obj
+         Win32/newtonDemos/Debug_mt\BasicStacking.obj
+         Win32/newtonDemos/Debug_mt\ClosestDistance.obj
+         Win32/newtonDemos/Debug_mt\LoadSaveScene.obj
+         Win32/newtonDemos/Debug_mt\DemoCamera.obj
+         Win32/newtonDemos/Debug_mt\DemoEntity.obj
+         Win32/newtonDemos/Debug_mt\DemoEntityManager.obj
+         Win32/newtonDemos/Debug_mt\DemoMesh.obj
+         Win32/newtonDemos/Debug_mt\NewtonDemos.obj
+         Win32/newtonDemos/Debug_mt\PhysicsUtils.obj
+         Win32/newtonDemos/Debug_mt\sdkDemos.obj
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Debug_mt\dContainers_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Debug_mt\dScene_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Debug_mt\tinyxml_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Debug_mt\dJointLibrary_d.lib"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32/newtonDemos/Debug_mt\newtonDemos.exe.embed.manifest" /manifest Win32/newtonDemos/Debug_mt\newtonDemos.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32/newtonDemos/Debug_mt\newtonDemos.exe.embed.manifest.res" Win32/newtonDemos/Debug_mt\newtonDemos_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/X32/NewtonDemos_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../sdk/x32/dll_vs9 glu32.lib opengl32.lib newton_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/newtonDemos/Debug_mt\newtonDemos.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Win32/newtonDemos/Debug_mt\NewtonDemos.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32/newtonDemos/Debug_mt\newtonDemos.lib" /MACHINE:X86 Win32/newtonDemos/Debug_mt\newtonDemos.res
+         Win32/newtonDemos/Debug_mt\newtonDemos.exe.embed.manifest.res
+         Win32/newtonDemos/Debug_mt\DebugDisplay.obj
+         Win32/newtonDemos/Debug_mt\dHeightResolutionTimer.obj
+         Win32/newtonDemos/Debug_mt\dRuntimeProfiler.obj
+         Win32/newtonDemos/Debug_mt\dSimulationThread.obj
+         Win32/newtonDemos/Debug_mt\glContext.obj
+         Win32/newtonDemos/Debug_mt\OpenGlUtil.obj
+         Win32/newtonDemos/Debug_mt\SkyBox.obj
+         Win32/newtonDemos/Debug_mt\TargaToOpenGl.obj
+         Win32/newtonDemos/Debug_mt\toolbox_stdafx.obj
+         Win32/newtonDemos/Debug_mt\BasicFriction.obj
+         Win32/newtonDemos/Debug_mt\BasicSphereSpin.obj
+         Win32/newtonDemos/Debug_mt\BasicStacking.obj
+         Win32/newtonDemos/Debug_mt\ClosestDistance.obj
+         Win32/newtonDemos/Debug_mt\LoadSaveScene.obj
+         Win32/newtonDemos/Debug_mt\DemoCamera.obj
+         Win32/newtonDemos/Debug_mt\DemoEntity.obj
+         Win32/newtonDemos/Debug_mt\DemoEntityManager.obj
+         Win32/newtonDemos/Debug_mt\DemoMesh.obj
+         Win32/newtonDemos/Debug_mt\NewtonDemos.obj
+         Win32/newtonDemos/Debug_mt\PhysicsUtils.obj
+         Win32/newtonDemos/Debug_mt\sdkDemos.obj
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Debug_mt\dContainers_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Debug_mt\dScene_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Debug_mt\tinyxml_d.lib"
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Debug_mt\dJointLibrary_d.lib"
+         newtonDemos.vcxproj -> D:\physics\NewtonWin-2.30\samples\project_vs2008\Win32/newtonDemos/Debug_mt\newtonDemos.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32/newtonDemos/Debug_mt\newtonDemos.unsuccessfulbuild".
+         Touching "Win32/newtonDemos/Debug_mt\newtonDemos.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\samples\project_vs2008\newtonDemos.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.25

@@ -1,0 +1,35 @@
+﻿Build started 2011/7/25 11:33:19.
+     1>Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dMath.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dMath/Release_mt\dMath.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dMath/Release_mt\dMath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dStdAfxMath.h" /Fp"Win32/dMath/Release_mt\dMath.pch" /Fo"Win32/dMath/Release_mt\\" /Fd"Win32/dMath/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dMath\dStdAfxMath.cpp
+         dStdAfxMath.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dStdAfxMath.h" /Fp"Win32/dMath/Release_mt\dMath.pch" /Fo"Win32/dMath/Release_mt\\" /Fd"Win32/dMath/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dMath\dMathDefines.cpp ..\dMath\dMatrix.cpp ..\dMath\dQuaternion.cpp ..\dMath\dVector.cpp
+         dMathDefines.cpp
+         dMatrix.cpp
+         dQuaternion.cpp
+         dVector.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dMath/Release_mt\dMath.lib" /NOLOGO Win32/dMath/Release_mt\dMathDefines.obj
+         Win32/dMath/Release_mt\dMatrix.obj
+         Win32/dMath/Release_mt\dQuaternion.obj
+         Win32/dMath/Release_mt\dStdAfxMath.obj
+         Win32/dMath/Release_mt\dVector.obj
+         dMath.vcxproj -> D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32/dMath/Release_mt\dMath.lib
+       PostBuildEvent:
+         xcopy "Win32/dMath/Release_mt\dMath.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         :VCEnd
+         D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Release_mt\dMath.lib -> D:\physics\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dMath.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dMath/Release_mt\dMath.unsuccessfulbuild".
+         Touching "Win32/dMath/Release_mt\dMath.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dMath.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.16

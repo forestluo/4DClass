@@ -1,0 +1,84 @@
+﻿Build started 2011/7/25 11:33:23.
+     1>Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32/dJointLibrary/Release_mt\dJointLibrary.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"CustomJointLibraryStdAfx.h" /Fp"Win32/dJointLibrary/Release_mt\dJointLibrary.pch" /Fo"Win32/dJointLibrary/Release_mt\\" /Fd"Win32/dJointLibrary/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dCustomJoints\CustomJointLibraryStdAfx.cpp
+         CustomJointLibraryStdAfx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"CustomJointLibraryStdAfx.h" /Fp"Win32/dJointLibrary/Release_mt\dJointLibrary.pch" /Fo"Win32/dJointLibrary/Release_mt\\" /Fd"Win32/dJointLibrary/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dCustomJoints\Custom6DOF.cpp ..\dCustomJoints\CustomBallAndSocket.cpp ..\dCustomJoints\CustomCorkScrew.cpp ..\dCustomJoints\CustomDGRayCastCar.cpp ..\dCustomJoints\CustomDryRollingFriction.cpp ..\dCustomJoints\CustomGear.cpp ..\dCustomJoints\CustomHinge.cpp ..\dCustomJoints\CustomKinematicController.cpp ..\dCustomJoints\CustomMultiBodyVehicle.cpp ..\dCustomJoints\CustomPathFollow.cpp ..\dCustomJoints\CustomPlayerController.cpp ..\dCustomJoints\CustomPulley.cpp ..\dCustomJoints\CustomRagDoll.cpp ..\dCustomJoints\CustomSlider.cpp ..\dCustomJoints\CustomSlidingContact.cpp ..\dCustomJoints\CustomUniversal.cpp ..\dCustomJoints\CustomUpVector.cpp ..\dCustomJoints\CustomUserBlank.cpp ..\dCustomJoints\CustomWormGear.cpp ..\dCustomJoints\JointLibrary.cpp ..\dCustomJoints\NewtonCustomJoint.cpp
+         Custom6DOF.cpp
+         CustomBallAndSocket.cpp
+         CustomCorkScrew.cpp
+         CustomDGRayCastCar.cpp
+     1>..\dCustomJoints\CustomDGRayCastCar.cpp(101): warning C4189: 'sideSlip' : local variable is initialized but not referenced
+         CustomDryRollingFriction.cpp
+         CustomGear.cpp
+         CustomHinge.cpp
+         CustomKinematicController.cpp
+         CustomMultiBodyVehicle.cpp
+         CustomPathFollow.cpp
+         CustomPlayerController.cpp
+         CustomPulley.cpp
+         CustomRagDoll.cpp
+         CustomSlider.cpp
+         CustomSlidingContact.cpp
+         CustomUniversal.cpp
+         CustomUpVector.cpp
+         CustomUserBlank.cpp
+         CustomWormGear.cpp
+         JointLibrary.cpp
+         Generating Code...
+         Compiling...
+         NewtonCustomJoint.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32/dJointLibrary/Release_mt\dJointLibrary.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../x32\dll_vs9 newton.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/dJointLibrary/Release_mt\dJointLibrary.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Release_mt\dJointLibrary.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32/dJointLibrary/Release_mt\dJointLibrary.lib" /MACHINE:X86 /DLL Win32/dJointLibrary/Release_mt\Custom6DOF.obj
+         Win32/dJointLibrary/Release_mt\CustomBallAndSocket.obj
+         Win32/dJointLibrary/Release_mt\CustomCorkScrew.obj
+         Win32/dJointLibrary/Release_mt\CustomDGRayCastCar.obj
+         Win32/dJointLibrary/Release_mt\CustomDryRollingFriction.obj
+         Win32/dJointLibrary/Release_mt\CustomGear.obj
+         Win32/dJointLibrary/Release_mt\CustomHinge.obj
+         Win32/dJointLibrary/Release_mt\CustomJointLibraryStdAfx.obj
+         Win32/dJointLibrary/Release_mt\CustomKinematicController.obj
+         Win32/dJointLibrary/Release_mt\CustomMultiBodyVehicle.obj
+         Win32/dJointLibrary/Release_mt\CustomPathFollow.obj
+         Win32/dJointLibrary/Release_mt\CustomPlayerController.obj
+         Win32/dJointLibrary/Release_mt\CustomPulley.obj
+         Win32/dJointLibrary/Release_mt\CustomRagDoll.obj
+         Win32/dJointLibrary/Release_mt\CustomSlider.obj
+         Win32/dJointLibrary/Release_mt\CustomSlidingContact.obj
+         Win32/dJointLibrary/Release_mt\CustomUniversal.obj
+         Win32/dJointLibrary/Release_mt\CustomUpVector.obj
+         Win32/dJointLibrary/Release_mt\CustomUserBlank.obj
+         Win32/dJointLibrary/Release_mt\CustomWormGear.obj
+         Win32/dJointLibrary/Release_mt\JointLibrary.obj
+         Win32/dJointLibrary/Release_mt\NewtonCustomJoint.obj
+         "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Release_mt\dMath.lib"
+            Creating library Win32/dJointLibrary/Release_mt\dJointLibrary.lib and object Win32/dJointLibrary/Release_mt\dJointLibrary.exp
+         dJointLibrary.vcxproj -> D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32/dJointLibrary/Release_mt\dJointLibrary.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Win32/dJointLibrary/Release_mt\dJointLibrary.dll;#2" /manifest Win32/dJointLibrary/Release_mt\dJointLibrary.dll.intermediate.manifest
+       PostBuildEvent:
+         xcopy "../dCustomJoints/JointLibrary.h" "..\*.*"  /F /Y
+         xcopy "Win32/dJointLibrary/Release_mt\dJointLibrary.dll" "../X32/lib_vs9_mt/*.*"  /F /Y
+         xcopy "Win32/dJointLibrary/Release_mt\dJointLibrary.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         
+         
+         
+         
+         :VCEnd
+         D:\physics\NewtonWin-2.30\sdk\dCustomJoints\JointLibrary.h -> D:\physics\NewtonWin-2.30\sdk\JointLibrary.h
+         复制了 1 个文件
+         D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Release_mt\dJointLibrary.dll -> D:\physics\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dJointLibrary.dll
+         复制了 1 个文件
+         D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Release_mt\dJointLibrary.lib -> D:\physics\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dJointLibrary.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dJointLibrary/Release_mt\dJointLibrary.unsuccessfulbuild".
+         Touching "Win32/dJointLibrary/Release_mt\dJointLibrary.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.53

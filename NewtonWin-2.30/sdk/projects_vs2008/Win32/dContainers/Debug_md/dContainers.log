@@ -1,0 +1,44 @@
+﻿Build started 2011/8/17 12:30:47.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dContainers.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dContainers/Debug_md\dContainers.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dContainers/Debug_md\dContainers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dContainers /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dContainersStdAfx.h" /Fp"Win32/dContainers/Debug_md\dContainers.pch" /Fo"Win32/dContainers/Debug_md\\" /Fd"Win32/dContainers/Debug_md\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dContainers\dContainersStdAfx.cpp
+         dContainersStdAfx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dContainers /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dContainersStdAfx.h" /Fp"Win32/dContainers/Debug_md\dContainers.pch" /Fo"Win32/dContainers/Debug_md\\" /Fd"Win32/dContainers/Debug_md\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dContainers\dBaseHierarchy.cpp ..\dContainers\dClassInfo.cpp ..\dContainers\dCRC.cpp ..\dContainers\dRefCounter.cpp ..\dContainers\dThread.cpp ..\dContainers\dTree.cpp
+         dTree.cpp
+         dThread.cpp
+         dRefCounter.cpp
+         dCRC.cpp
+         dClassInfo.cpp
+         dBaseHierarchy.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dContainers/Debug_md\dContainers.lib) does not match the Library's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Debug_md\dContainers_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(dContainers) does not match the Library's OutputFile property value (dContainers_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dContainers/Debug_md\dContainers_d.lib" /NOLOGO Win32/dContainers/Debug_md\dBaseHierarchy.obj
+         Win32/dContainers/Debug_md\dClassInfo.obj
+         Win32/dContainers/Debug_md\dContainersStdAfx.obj
+         Win32/dContainers/Debug_md\dCRC.obj
+         Win32/dContainers/Debug_md\dRefCounter.obj
+         Win32/dContainers/Debug_md\dThread.obj
+         Win32/dContainers/Debug_md\dTree.obj
+         dContainers.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dContainers/Debug_md\dContainers.lib
+       PostBuildEvent:
+         xcopy "Win32/dContainers/Debug_md\dContainers_d.lib" "../X32/lib_vs9_md/*.*"  /F /Y
+         xcopy "Win32/dContainers/Debug_md\dContainers_d.lib" "E:\VisualStudio\4DClass\\Debug\*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Debug_md\dContainers_d.lib -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\X32\lib_vs9_md\dContainers_d.lib
+         复制了 1 个文件
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Debug_md\dContainers_d.lib -> E:\VisualStudio\4DClass\Debug\dContainers_d.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dContainers/Debug_md\dContainers.unsuccessfulbuild".
+         Touching "Win32/dContainers/Debug_md\dContainers.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dContainers.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.87

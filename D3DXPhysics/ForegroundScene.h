@@ -1,0 +1,61 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// ForegroundScene.h
+//  
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#ifndef _FOREGROUND_SCENE_H_
+#define _FOREGROUND_SCENE_H_
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "D3DXScene.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ForegroundScene
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class CForegroundScene : public CD3DXScene
+{
+private:
+	//Base description.
+	static const C4DBase base;
+
+public:
+
+	/**
+	 * Get class code.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Hash code of this class.</p>
+	 */
+	static _LONG getClassCode() {return base.classCode();}
+
+	/**
+	 * Get class code.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Hash code of this class.</p>
+	 */
+	virtual _LONG classCode() const {return base.classCode();}
+
+public:
+	CForegroundScene(void);
+	virtual ~CForegroundScene(void);
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_FOREGROUND_SCENE_H_

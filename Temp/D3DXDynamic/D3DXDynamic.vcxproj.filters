@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PSEye">
+      <UniqueIdentifier>{7e7d95e0-4a68-4d41-9bcb-6d5c66e9e2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Capture">
+      <UniqueIdentifier>{617c4a2d-6698-4bb6-ad4f-cc5db625326d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PSEye\attribute">
+      <UniqueIdentifier>{6d07509d-45a7-4bbb-a57a-16e7220a2686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect">
+      <UniqueIdentifier>{6b49bff4-1840-41c0-9748-050d46639786}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DXCaptureTexture.cpp">
+      <Filter>Capture</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXPSEyeTexture.cpp">
+      <Filter>PSEye</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectAttribute.cpp">
+      <Filter>PSEye\attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectManager.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DXCaptureTexture.h">
+      <Filter>Capture</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXPSEyeTexture.h">
+      <Filter>PSEye</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectAttribute.h">
+      <Filter>PSEye\attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectManager.h">
+      <Filter>Kinect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

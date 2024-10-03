@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/1/19 15:48:31。
+     1>项目“E:\VisualStudio\4DClass_25\4DGeometry\4DGeometry.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BoxRecycleBin.cpp SimpleBox.cpp SimpleSphere.cpp SphereRecycleBin.cpp
+         SphereRecycleBin.cpp
+         SimpleSphere.cpp
+     1>e:\visualstudio\4dclass_25\4dgeometry\simplesphere.cpp(22): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         SimpleBox.cpp
+     1>e:\visualstudio\4dclass_25\4dgeometry\simplebox.cpp(22): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         BoxRecycleBin.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DGeometry\4DGeometry.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.59

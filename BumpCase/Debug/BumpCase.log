@@ -1,0 +1,24 @@
+﻿Build started 2012/2/14 10:36:23.
+     1>Project "E:\VisualStudio\4DClass\BumpCase\BumpCase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BumpCase.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DXUTApplication.cpp
+         DXUTApplication.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\4DClass\Debug\BumpCase.exe" /NOLOGO comctl32.lib dxerr.lib dxguid.lib d3d9.lib d3dx9.lib d3d10.lib d3dx10.lib winmm.lib Dsound.lib Version.lib DXUT.lib DXUTOpt.lib newton.lib dMath_d.lib dJointLibrary_d.lib 4DMisc.lib 4DMath.lib 4DBasic.lib 4DString.lib 4DPhysics.lib 4DNewton.lib 4DCollision.lib 4DContainer.lib 4DGeometry.lib D3DXRenderable.lib D3DXApplication.lib D3DXPhysics.lib D3DXResource.lib 4DWorld.lib 4DRenderable.lib 4DJoint.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /ManifestFile:"Debug\BumpCase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\Debug\BumpCase.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\4DClass\Debug\BumpCase.lib" /MACHINE:X86 Debug\BumpScene.obj
+         Debug\DXUTApplication.obj
+         Debug\TextHelper.obj
+         Debug\WinMain.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         BumpCase.vcxproj -> E:\VisualStudio\4DClass\Debug\BumpCase.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VisualStudio\4DClass\Debug\BumpCase.exe;#1" /manifest Debug\BumpCase.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BumpCase.unsuccessfulbuild".
+         Touching "Debug\BumpCase.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\BumpCase\BumpCase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.77

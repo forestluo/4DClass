@@ -1,0 +1,40 @@
+﻿Build started 2011/8/10 14:37:43.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dMath.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dMath/Debug_mt\dMath.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dMath/Debug_mt\dMath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dStdAfxMath.h" /Fp"Win32/dMath/Debug_mt\dMath.pch" /Fo"Win32/dMath/Debug_mt\\" /Fd"Win32/dMath/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dMath\dStdAfxMath.cpp
+         dStdAfxMath.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dStdAfxMath.h" /Fp"Win32/dMath/Debug_mt\dMath.pch" /Fo"Win32/dMath/Debug_mt\\" /Fd"Win32/dMath/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dMath\dMathDefines.cpp ..\dMath\dMatrix.cpp ..\dMath\dQuaternion.cpp ..\dMath\dVector.cpp
+         dVector.cpp
+         dQuaternion.cpp
+         dMatrix.cpp
+         dMathDefines.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dMath/Debug_mt\dMath.lib) does not match the Library's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(dMath) does not match the Library's OutputFile property value (dMath_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dMath/Debug_mt\dMath_d.lib" /NOLOGO Win32/dMath/Debug_mt\dMathDefines.obj
+         Win32/dMath/Debug_mt\dMatrix.obj
+         Win32/dMath/Debug_mt\dQuaternion.obj
+         Win32/dMath/Debug_mt\dStdAfxMath.obj
+         Win32/dMath/Debug_mt\dVector.obj
+         dMath.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dMath/Debug_mt\dMath.lib
+       PostBuildEvent:
+         xcopy "Win32/dMath/Debug_mt\dMath_d.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         xcopy "Win32/dMath/Debug_mt\dMath_d.lib" "E:\VisualStudio\4DClass\\Debug\*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dMath_d.lib
+         复制了 1 个文件
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib -> E:\VisualStudio\4DClass\Debug\dMath_d.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dMath/Debug_mt\dMath.unsuccessfulbuild".
+         Touching "Win32/dMath/Debug_mt\dMath.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dMath.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

@@ -1,0 +1,89 @@
+﻿Build started 2011/8/17 12:31:02.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dScene.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dScene/Debug_md\dScene.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dScene/Debug_md\dScene.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dContainers /I../thirdParty/tinyxml /I../thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DSCENE_EXPORTS /D _NEWTON_USE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dPlugInStdafx.h" /Fp"Win32/dScene/Debug_md\dScene.pch" /Fo"Win32/dScene/Debug_md\\" /Fd"Win32/dScene/Debug_md\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dScene\dPluginStdafx.cpp
+         dPluginStdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dContainers /I../thirdParty/tinyxml /I../thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DSCENE_EXPORTS /D _NEWTON_USE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dPlugInStdafx.h" /Fp"Win32/dScene/Debug_md\dScene.pch" /Fo"Win32/dScene/Debug_md\\" /Fd"Win32/dScene/Debug_md\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dScene\dBoneNodeInfo.cpp ..\dScene\dCameraNodeInfo.cpp ..\dScene\dCollisionBoxNodeInfo.cpp ..\dScene\dCollisionCapsuleNodeInfo.cpp ..\dScene\dCollisionChamferCylinderNodeInfo.cpp ..\dScene\dCollisionCompoundNodeInfo.cpp ..\dScene\dCollisionConeNodeInfo.cpp ..\dScene\dCollisionConvexHullNodeInfo.cpp ..\dScene\dCollisionCylinderNodeInfo.cpp ..\dScene\dCollisionNodeInfo.cpp ..\dScene\dCollisionSphereNodeInfo.cpp ..\dScene\dDrawUtils.cpp ..\dScene\dExportPlugin.cpp ..\dScene\dGeometryNodeInfo.cpp ..\dScene\dGeometryNodeModifierInfo.cpp ..\dScene\dGeometryNodeSkinModifierInfo.cpp ..\dScene\dImportPlugin.cpp ..\dScene\dllmain.cpp ..\dScene\dMaterialNodeInfo.cpp ..\dScene\dMeshNodeInfo.cpp ..\dScene\dNodeInfo.cpp ..\dScene\dPluginRecord.cpp ..\dScene\dRigidbodyNodeInfo.cpp ..\dScene\dRootNodeInfo.cpp ..\dScene\dScene.cpp ..\dScene\dSceneGraph.cpp ..\dScene\dSceneNodeInfo.cpp ..\dScene\dTextureNodeInfo.cpp ..\dScene\dVariable.cpp
+         dBoneNodeInfo.cpp
+         dCameraNodeInfo.cpp
+         dCollisionBoxNodeInfo.cpp
+         dCollisionCapsuleNodeInfo.cpp
+         dCollisionChamferCylinderNodeInfo.cpp
+         dCollisionCompoundNodeInfo.cpp
+         dCollisionConeNodeInfo.cpp
+         dCollisionConvexHullNodeInfo.cpp
+         dCollisionCylinderNodeInfo.cpp
+         dCollisionNodeInfo.cpp
+         dCollisionSphereNodeInfo.cpp
+         dDrawUtils.cpp
+         dExportPlugin.cpp
+         dGeometryNodeInfo.cpp
+         dGeometryNodeModifierInfo.cpp
+         dGeometryNodeSkinModifierInfo.cpp
+         dImportPlugin.cpp
+         dllmain.cpp
+         dMaterialNodeInfo.cpp
+         dMeshNodeInfo.cpp
+         Generating Code...
+         Compiling...
+         dNodeInfo.cpp
+         dPluginRecord.cpp
+         dRigidbodyNodeInfo.cpp
+         dRootNodeInfo.cpp
+         dScene.cpp
+         dSceneGraph.cpp
+         dSceneNodeInfo.cpp
+         dTextureNodeInfo.cpp
+         dVariable.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dScene/Debug_md\dScene.lib) does not match the Library's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Debug_md\dScene_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(dScene) does not match the Library's OutputFile property value (dScene_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dScene/Debug_md\dScene_d.lib" /NOLOGO Win32/dScene/Debug_md\dBoneNodeInfo.obj
+         Win32/dScene/Debug_md\dCameraNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionBoxNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionCapsuleNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionChamferCylinderNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionCompoundNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionConeNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionConvexHullNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionCylinderNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionNodeInfo.obj
+         Win32/dScene/Debug_md\dCollisionSphereNodeInfo.obj
+         Win32/dScene/Debug_md\dDrawUtils.obj
+         Win32/dScene/Debug_md\dExportPlugin.obj
+         Win32/dScene/Debug_md\dGeometryNodeInfo.obj
+         Win32/dScene/Debug_md\dGeometryNodeModifierInfo.obj
+         Win32/dScene/Debug_md\dGeometryNodeSkinModifierInfo.obj
+         Win32/dScene/Debug_md\dImportPlugin.obj
+         Win32/dScene/Debug_md\dllmain.obj
+         Win32/dScene/Debug_md\dMaterialNodeInfo.obj
+         Win32/dScene/Debug_md\dMeshNodeInfo.obj
+         Win32/dScene/Debug_md\dNodeInfo.obj
+         Win32/dScene/Debug_md\dPluginRecord.obj
+         Win32/dScene/Debug_md\dPluginStdafx.obj
+         Win32/dScene/Debug_md\dRigidbodyNodeInfo.obj
+         Win32/dScene/Debug_md\dRootNodeInfo.obj
+         Win32/dScene/Debug_md\dScene.obj
+         Win32/dScene/Debug_md\dSceneGraph.obj
+         Win32/dScene/Debug_md\dSceneNodeInfo.obj
+         Win32/dScene/Debug_md\dTextureNodeInfo.obj
+         Win32/dScene/Debug_md\dVariable.obj
+         dScene.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dScene/Debug_md\dScene.lib
+       PostBuildEvent:
+         xcopy "Win32/dScene/Debug_md\dScene_d.lib" "../X32/lib_vs9_md/*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Debug_md\dScene_d.lib -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\X32\lib_vs9_md\dScene_d.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dScene/Debug_md\dScene.unsuccessfulbuild".
+         Touching "Win32/dScene/Debug_md\dScene.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dScene.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.52

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/1/19 15:48:31。
+     1>项目“E:\VisualStudio\4DClass_25\4DJoint\4DJoint.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt JointAttribute.cpp JointRelationAttribute.cpp WorldJointObject.cpp
+         WorldJointObject.cpp
+         JointRelationAttribute.cpp
+         JointAttribute.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass_25\Debug\4DJoint.lib" /NOLOGO Debug\JointAttribute.obj
+         Debug\JointRelationAttribute.obj
+         Debug\WorldJointObject.obj
+         4DJoint.vcxproj -> E:\VisualStudio\4DClass_25\Debug\4DJoint.lib
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DJoint\4DJoint.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93

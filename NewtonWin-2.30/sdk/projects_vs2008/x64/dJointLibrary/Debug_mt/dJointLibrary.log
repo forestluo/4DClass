@@ -1,0 +1,89 @@
+﻿Build started 2011/9/21 9:06:58.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64/dJointLibrary/Debug_mt\dJointLibrary.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "x64/dJointLibrary/Debug_mt\dJointLibrary.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"CustomJointLibraryStdAfx.h" /Fp"x64/dJointLibrary/Debug_mt\dJointLibrary.pch" /Fo"x64/dJointLibrary/Debug_mt\\" /Fd"x64/dJointLibrary/Debug_mt\vc100.pdb" /Gd /TP /errorReport:prompt ..\dCustomJoints\CustomJointLibraryStdAfx.cpp
+         CustomJointLibraryStdAfx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"CustomJointLibraryStdAfx.h" /Fp"x64/dJointLibrary/Debug_mt\dJointLibrary.pch" /Fo"x64/dJointLibrary/Debug_mt\\" /Fd"x64/dJointLibrary/Debug_mt\vc100.pdb" /Gd /TP /errorReport:prompt ..\dCustomJoints\Custom6DOF.cpp ..\dCustomJoints\CustomBallAndSocket.cpp ..\dCustomJoints\CustomCorkScrew.cpp ..\dCustomJoints\CustomDGRayCastCar.cpp ..\dCustomJoints\CustomDryRollingFriction.cpp ..\dCustomJoints\CustomGear.cpp ..\dCustomJoints\CustomHinge.cpp ..\dCustomJoints\CustomKinematicController.cpp ..\dCustomJoints\CustomMultiBodyVehicle.cpp ..\dCustomJoints\CustomPathFollow.cpp ..\dCustomJoints\CustomPlayerController.cpp ..\dCustomJoints\CustomPulley.cpp ..\dCustomJoints\CustomRagDoll.cpp ..\dCustomJoints\CustomSlider.cpp ..\dCustomJoints\CustomSlidingContact.cpp ..\dCustomJoints\CustomUniversal.cpp ..\dCustomJoints\CustomUpVector.cpp ..\dCustomJoints\CustomUserBlank.cpp ..\dCustomJoints\CustomWormGear.cpp ..\dCustomJoints\JointLibrary.cpp ..\dCustomJoints\NewtonCustomJoint.cpp
+         NewtonCustomJoint.cpp
+         JointLibrary.cpp
+         CustomWormGear.cpp
+         CustomUserBlank.cpp
+         CustomUpVector.cpp
+         CustomUniversal.cpp
+         CustomSlidingContact.cpp
+         CustomSlider.cpp
+         CustomRagDoll.cpp
+         CustomPulley.cpp
+         CustomPlayerController.cpp
+         CustomPathFollow.cpp
+         CustomMultiBodyVehicle.cpp
+         CustomKinematicController.cpp
+         CustomHinge.cpp
+         CustomGear.cpp
+         CustomDryRollingFriction.cpp
+         CustomDGRayCastCar.cpp
+     1>..\dCustomJoints\CustomDGRayCastCar.cpp(101): warning C4189: 'sideSlip' : local variable is initialized but not referenced
+         CustomCorkScrew.cpp
+         CustomBallAndSocket.cpp
+         Generating Code...
+         Compiling...
+         Custom6DOF.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\x64/dJointLibrary/Debug_mt\dJointLibrary.dll) does not match the Linker's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\x64\dJointLibrary\Debug_mt\dJointLibrary_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(dJointLibrary) does not match the Linker's OutputFile property value (dJointLibrary_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../x64/dll_vs9 newton.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64/dJointLibrary/Debug_mt\dJointLibrary.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\x64\dJointLibrary\Debug_mt\dJointLibrary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64/dJointLibrary/Debug_mt\dJointLibrary_d.lib" /MACHINE:X64 /DLL x64/dJointLibrary/Debug_mt\Custom6DOF.obj
+         x64/dJointLibrary/Debug_mt\CustomBallAndSocket.obj
+         x64/dJointLibrary/Debug_mt\CustomCorkScrew.obj
+         x64/dJointLibrary/Debug_mt\CustomDGRayCastCar.obj
+         x64/dJointLibrary/Debug_mt\CustomDryRollingFriction.obj
+         x64/dJointLibrary/Debug_mt\CustomGear.obj
+         x64/dJointLibrary/Debug_mt\CustomHinge.obj
+         x64/dJointLibrary/Debug_mt\CustomJointLibraryStdAfx.obj
+         x64/dJointLibrary/Debug_mt\CustomKinematicController.obj
+         x64/dJointLibrary/Debug_mt\CustomMultiBodyVehicle.obj
+         x64/dJointLibrary/Debug_mt\CustomPathFollow.obj
+         x64/dJointLibrary/Debug_mt\CustomPlayerController.obj
+         x64/dJointLibrary/Debug_mt\CustomPulley.obj
+         x64/dJointLibrary/Debug_mt\CustomRagDoll.obj
+         x64/dJointLibrary/Debug_mt\CustomSlider.obj
+         x64/dJointLibrary/Debug_mt\CustomSlidingContact.obj
+         x64/dJointLibrary/Debug_mt\CustomUniversal.obj
+         x64/dJointLibrary/Debug_mt\CustomUpVector.obj
+         x64/dJointLibrary/Debug_mt\CustomUserBlank.obj
+         x64/dJointLibrary/Debug_mt\CustomWormGear.obj
+         x64/dJointLibrary/Debug_mt\JointLibrary.obj
+         x64/dJointLibrary/Debug_mt\NewtonCustomJoint.obj
+         "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\x64\dMath\Debug_mt\dMath_d.lib"
+            Creating library x64/dJointLibrary/Debug_mt\dJointLibrary_d.lib and object x64/dJointLibrary/Debug_mt\dJointLibrary_d.exp
+         dJointLibrary.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\x64/dJointLibrary/Debug_mt\dJointLibrary.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll;#2" /manifest x64/dJointLibrary/Debug_mt\dJointLibrary.dll.intermediate.manifest
+       PostBuildEvent:
+         xcopy JointLibrary.h "..\*.*"  /F /Y
+         xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll "../X64\*.*"  /F /Y
+         xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.lib "../X64\*.*"  /F /Y
+         
+         rem xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll "C:\temp\balljointlimitsbug\*.*"  /F /Y
+         
+         :VCEnd
+         找不到文件 - JointLibrary.h
+         复制了 0 个文件
+         无效的参数数量
+         无效的参数数量
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "xcopy JointLibrary.h "..\*.*"  /F /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll "../X64\*.*"  /F /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.lib "../X64\*.*"  /F /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: rem xcopy x64/dJointLibrary/Debug_mt\dJointLibrary_d.dll "C:\temp\balljointlimitsbug\*.*"  /F /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 4.
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.62

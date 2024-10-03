@@ -1,0 +1,34 @@
+﻿Build started 2011/8/17 12:31:11.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\tinyxml.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/tinyxml/Debug_md\tinyxml.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/tinyxml/Debug_md\tinyxml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/tinyxml/Debug_md\\" /Fd"Win32/tinyxml/Debug_md\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt ..\thirdParty\tinyxml\tinystr.cpp ..\thirdParty\tinyxml\tinyxml.cpp ..\thirdParty\tinyxml\tinyxmlerror.cpp ..\thirdParty\tinyxml\tinyxmlparser.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/tinyxml/Debug_md\tinyxml.lib) does not match the Library's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Debug_md\tinyxml_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxml) does not match the Library's OutputFile property value (tinyxml_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/tinyxml/Debug_md\tinyxml_d.lib" /NOLOGO Win32/tinyxml/Debug_md\tinystr.obj
+         Win32/tinyxml/Debug_md\tinyxml.obj
+         Win32/tinyxml/Debug_md\tinyxmlerror.obj
+         Win32/tinyxml/Debug_md\tinyxmlparser.obj
+         tinyxml.vcxproj -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/tinyxml/Debug_md\tinyxml.lib
+       PostBuildEvent:
+         xcopy "Win32/tinyxml/Debug_md\tinyxml_d.lib" "../X32/lib_vs9_md/*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Debug_md\tinyxml_d.lib -> E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\X32\lib_vs9_md\tinyxml_d.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/tinyxml/Debug_md\tinyxml.unsuccessfulbuild".
+         Touching "Win32/tinyxml/Debug_md\tinyxml.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\tinyxml.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

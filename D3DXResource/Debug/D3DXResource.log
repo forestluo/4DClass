@@ -1,0 +1,85 @@
+﻿生成启动时间为 2016/1/19 15:48:34。
+     1>项目“E:\VisualStudio\4DClass_25\D3DXResource\D3DXResource.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Axis0.cpp ControlBall.cpp FilterManager.cpp D3DXDevice.cpp D3DXDynamicTexture.cpp D3DXEffect.cpp D3DXEffectAttribute.cpp D3DXEvent.cpp D3DXFileMesh.cpp D3DXIndexAttribute.cpp D3DXLinestrip.cpp D3DXObject.cpp D3DXPickAttribute.cpp D3DXPrimitive.cpp D3DXRenderable.cpp D3DXResource.cpp D3DXStaticTexture.cpp D3DXTexture.cpp D3DXVertexAttribute.cpp D3DXDeviceReference.cpp DeviceManager.cpp EffectManager.cpp D3DXFilter.cpp MeshManager.cpp ModelViewPort.cpp PersonalViewPort.cpp PickIntersection.cpp PickRay.cpp PickResult.cpp PrimitiveManager.cpp RenderableManager.cpp ResourceApplication.cpp D3DXResourceGroup.cpp ResourceManager.cpp LinestripManager.cpp TextureManager.cpp ViewPort.cpp ViewPortApplication.cpp
+         ViewPortApplication.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ViewPort.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         TextureManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         LinestripManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ResourceManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXResourceGroup.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ResourceApplication.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         RenderableManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         PrimitiveManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         PickResult.cpp
+         PickRay.cpp
+         PickIntersection.cpp
+         PersonalViewPort.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ModelViewPort.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         MeshManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXFilter.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         EffectManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         DeviceManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXDeviceReference.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXVertexAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         D3DXTexture.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXStaticTexture.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXResource.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXRenderable.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXPrimitive.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXPickAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXLinestrip.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXIndexAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXFileMesh.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXEvent.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXEffectAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXEffect.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXDynamicTexture.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXDevice.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         FilterManager.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ControlBall.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         Axis0.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\D3DXResource\D3DXResource.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.84

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{a1005ae8-17e1-4f2d-b2e5-e65d24b0be94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\pick">
+      <UniqueIdentifier>{1226718c-da9c-4b69-95de-58e3b68320a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\sketch">
+      <UniqueIdentifier>{601b944c-ed78-408a-8b7b-1d294dd01cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\sketch\sketcher">
+      <UniqueIdentifier>{c188d4e1-c91c-40b7-a75c-1d99fc0a2bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\sketch\sketch0">
+      <UniqueIdentifier>{540af82a-ba06-4a60-9eeb-120b33291eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\control">
+      <UniqueIdentifier>{5aaaba9b-5f80-4b01-95e8-2ad65adc64e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\control\controller">
+      <UniqueIdentifier>{94c09672-1740-4ac5-8494-bfa037f4d8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{e69e0d57-b4f2-4d39-9aea-bc905a4be13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive">
+      <UniqueIdentifier>{5e387350-ee25-4481-83af-e5fdb311dad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\compound">
+      <UniqueIdentifier>{9c7f6d7e-5422-413b-b2b4-33dae478d4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint">
+      <UniqueIdentifier>{ca32b5c0-cd07-4737-a18f-5cd7cca968c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive\attribute">
+      <UniqueIdentifier>{f45e24ff-96c3-4210-aed6-cf3fed47e4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive\attribute\color">
+      <UniqueIdentifier>{fea69dc5-caf4-425a-8980-6f04884de0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{eb9398fc-e9a3-4a01-9826-f5472dfc6080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\axis">
+      <UniqueIdentifier>{31b5a597-b45b-4d27-87df-304cfd691310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy">
+      <UniqueIdentifier>{9adea9c5-1db7-4c3b-9779-2c1ee2e74c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic">
+      <UniqueIdentifier>{ddec8eec-13a0-4bb2-a442-61fd166d428b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\custom">
+      <UniqueIdentifier>{816433c5-11cd-4694-8157-f56910d9db3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\ball">
+      <UniqueIdentifier>{d5ba2fc4-b135-44f8-ac09-c9ac5fa4998a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\plus">
+      <UniqueIdentifier>{90d9f5ca-146c-4960-b7e1-ec1b19bb5464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\corkscrew">
+      <UniqueIdentifier>{2c221117-0662-4848-ae63-af02d5933607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\hinge">
+      <UniqueIdentifier>{7d81ef9c-91f0-496a-8832-a60a0a91329c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\slider">
+      <UniqueIdentifier>{5fb9232c-38f8-4d39-beaa-e560f5ab5892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\universal">
+      <UniqueIdentifier>{38d04891-ea76-41c5-889b-7ad0fea4a7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\classic\upvector">
+      <UniqueIdentifier>{818b925c-686c-4e0f-b581-c78e8ef490d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\custom\ball">
+      <UniqueIdentifier>{53249496-bdbb-460c-9382-d0645070bb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\custom\hinge">
+      <UniqueIdentifier>{39e781a5-6715-4d16-b499-0059c0095489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\custom\slider">
+      <UniqueIdentifier>{02851c2a-1557-4b0f-86bc-62df8d83e0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\proxy\custom\6dof">
+      <UniqueIdentifier>{35678f9d-b480-4e73-a8f3-c400b3de88a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive\attribute\effect">
+      <UniqueIdentifier>{506e7297-5bfc-48ed-966c-7fcd76b4dc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive\attribute\chartlet">
+      <UniqueIdentifier>{691d48b3-bfce-4816-a56f-f56fb2410d89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PickerAttribute.cpp">
+      <Filter>attribute\pick</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSketcher.cpp">
+      <Filter>attribute\sketch\sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SketcherAttribute.cpp">
+      <Filter>attribute\sketch</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch0.cpp">
+      <Filter>attribute\sketch\sketch0</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectController.cpp">
+      <Filter>attribute\control\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerAttribute.cpp">
+      <Filter>attribute\control</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXRenderableObject.cpp" />
+    <ClCompile Include="ColorAttribute.cpp">
+      <Filter>object\primitive\attribute\color</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXPrimitiveObject.cpp">
+      <Filter>object\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXCompoundObject.cpp">
+      <Filter>object\compound</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXJointObject.cpp">
+      <Filter>object\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXJointObjectProxy.cpp">
+      <Filter>object\joint\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicBallJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicCorkscrewJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\corkscrew</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicHingeJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicSliderJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicUniversalJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXClassicUpVectorJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\classic\upvector</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch1.cpp">
+      <Filter>attribute\sketch\sketch0</Filter>
+    </ClCompile>
+    <ClCompile Include="JointObjectSketcher.cpp">
+      <Filter>attribute\sketch\sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXCustomBallJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\custom\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXCustomHingeJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\custom\hinge</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXCustomSliderJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\custom\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXCustom6DOFJointObjectProxy.cpp">
+      <Filter>object\joint\proxy\custom\6dof</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXAxisObject.cpp">
+      <Filter>sample\axis</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXPlusObject.cpp">
+      <Filter>sample\plus</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAttribute.cpp">
+      <Filter>object\primitive\attribute\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartletAttribute.cpp">
+      <Filter>object\primitive\attribute\chartlet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PickerAttribute.h">
+      <Filter>attribute\pick</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSketcher.h">
+      <Filter>attribute\sketch\sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SketcherAttribute.h">
+      <Filter>attribute\sketch</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch0.h">
+      <Filter>attribute\sketch\sketch0</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectController.h">
+      <Filter>attribute\control\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerAttribute.h">
+      <Filter>attribute\control</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXRenderableObject.h" />
+    <ClInclude Include="ColorAttribute.h">
+      <Filter>object\primitive\attribute\color</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXPrimitiveObject.h">
+      <Filter>object\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXCompoundObject.h">
+      <Filter>object\compound</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXJointObject.h">
+      <Filter>object\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXJointObjectProxy.h">
+      <Filter>object\joint\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicBallJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicCorkscrewJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\corkscrew</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicHingeJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicSliderJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicUniversalJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXClassicUpVectorJointObjectProxy.h">
+      <Filter>object\joint\proxy\classic\upvector</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch1.h">
+      <Filter>attribute\sketch\sketch0</Filter>
+    </ClInclude>
+    <ClInclude Include="JointObjectSketcher.h">
+      <Filter>attribute\sketch\sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXCustomBallJointObjectProxy.h">
+      <Filter>object\joint\proxy\custom\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXCustomHingeJointObjectProxy.h">
+      <Filter>object\joint\proxy\custom\hinge</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXCustomSliderJointObjectProxy.h">
+      <Filter>object\joint\proxy\custom\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXCustom6DOFJointObjectProxy.h">
+      <Filter>object\joint\proxy\custom\6dof</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXAxisObject.h">
+      <Filter>sample\axis</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXPlusObject.h">
+      <Filter>sample\plus</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAttribute.h">
+      <Filter>object\primitive\attribute\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartletAttribute.h">
+      <Filter>object\primitive\attribute\chartlet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

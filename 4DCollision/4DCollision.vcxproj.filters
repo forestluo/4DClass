@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="recycle">
+      <UniqueIdentifier>{d23aefcc-da64-4236-a0b6-b977128016e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{75cd4cbe-e442-4121-b172-1bc9650e321d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\single">
+      <UniqueIdentifier>{afed24c9-6724-4c83-be46-7c4f139102bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\multi">
+      <UniqueIdentifier>{33510026-365f-4e38-a895-0b21eeb22343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle\single">
+      <UniqueIdentifier>{2d72369f-e0ae-4be1-901d-dcba4d4768ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle\multi">
+      <UniqueIdentifier>{b6935427-fc30-4054-8b07-4f70c7ba7068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="method">
+      <UniqueIdentifier>{7fbf78f3-2db8-4172-8ca5-00e263215319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleBoxObject.cpp">
+      <Filter>object\single</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleBoxObjectRecycleBin.cpp">
+      <Filter>recycle\single</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiBoxObject.cpp">
+      <Filter>object\multi</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiBoxObjectRecycleBin.cpp">
+      <Filter>recycle\multi</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMethod.cpp">
+      <Filter>method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoxObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleBoxObject.h">
+      <Filter>object\single</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleBoxObjectRecycleBin.h">
+      <Filter>recycle\single</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiBoxObject.h">
+      <Filter>object\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiBoxObjectRecycleBin.h">
+      <Filter>recycle\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMethod.h">
+      <Filter>method</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

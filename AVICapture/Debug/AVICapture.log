@@ -1,0 +1,20 @@
+﻿Build started 2011/12/29 17:19:56.
+     1>Project "E:\VisualStudio\4DClass\AVICapture\AVICapture.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\AVICapture.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CAvicap.cpp
+         CAvicap.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Automatically linking with winmm.lib
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass\Debug\AVICapture.lib" /NOLOGO Debug\CAvicap.obj
+         AVICapture.vcxproj -> E:\VisualStudio\4DClass\Debug\AVICapture.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\AVICapture.unsuccessfulbuild".
+         Touching "Debug\AVICapture.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\AVICapture\AVICapture.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.27

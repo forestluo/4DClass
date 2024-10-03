@@ -1,0 +1,146 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// PhysicsCustomJoint.cpp
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "PhysicsCustomJoint.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "PhysicsManager.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Definition
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#define COLLISION_BODY(p)									((const NewtonBody *)(p))
+#define NEWTON_JOINT(p)										((const NewtonUserJoint *)(p))
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CPhysicsCustomJoint
+//
+// Default construction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CPhysicsCustomJoint::CPhysicsCustomJoint(void)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CPhysicsCustomJoint
+//
+// Default deconstruction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CPhysicsCustomJoint::~CPhysicsCustomJoint(void)
+{
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// SetCallbacks
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+void CPhysicsCustomJoint::setCallbacks(_OBJECT joint)
+{
+	//Set callbacks.
+	CPhysicsJoint::setCallbacks(joint);
+
+	//Set destructor callback.
+	//::CustomSetDestructorCallback(NEWTON_JOINT(joint),DestroyCustomJointCallback);
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// DetachObject
+//
+/////////////////////////////////////////////////////////////////////////////////
+	
+void CPhysicsCustomJoint::detachObject(CPhysicsManager* manager)
+{
+#ifdef _DEBUG
+	assert(object != _NULL);
+	assert(manager != _NULL);
+#endif
+
+#ifdef _DEBUG
+	assert(joint != _NULL);
+#endif
+	::CustomDestroyJoint((NewtonUserJoint *)joint);
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// AttachObject
+//
+/////////////////////////////////////////////////////////////////////////////////
+	
+_BOOL CPhysicsCustomJoint::attachObject(CPhysicsManager* manager,CPhysicsJointObject* object)
+{
+#ifdef _DEBUG
+	assert(object != _NULL);
+	assert(manager != _NULL);
+	assert(this->object == _NULL);
+	assert(CJointAttribute::isCustomJoint(object->getJointType()));
+#endif
+	//Set value.
+	this->object = object;
+
+	//Create joint.
+    joint = createJoint(manager);
+#ifdef _DEBUG
+	assert(joint != _NULL);
+#endif
+	//Set user data.
+	::CustomSetUserData(NEWTON_JOINT(joint),this);
+
+	//Check result.
+	setLimits(joint);
+	//Set callbacks.
+	setCallbacks(joint);
+
+	//Set self collision.
+	::CustomSetBodiesCollisionState(NEWTON_JOINT(joint),object->isSelfCollision());
+	//Return true.
+	return _TRUE;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// DestroyCustomJointCallback
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void DestroyCustomJointCallback(const NewtonUserJoint* joint)
+{
+	//Joint.
+	CPhysicsCustomJoint* object;
+
+#ifdef _DEBUG
+	assert(joint != _NULL);
+#endif
+	//Get the entity associated with this rigid body.
+	object = (CPhysicsCustomJoint *)::CustomGetUserData(joint);
+#ifdef _DEBUG
+	assert(object != _NULL);
+#endif
+	//Call function.
+	object->destroy();
+}

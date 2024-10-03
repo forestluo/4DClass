@@ -1,0 +1,22 @@
+﻿Build started 2012/1/17 11:33:38.
+     1>Project "E:\VisualStudio\4DClass\BaseMapCase\BaseMapCase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BaseMapCase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\4DClass\Debug\BaseMapCase.exe" /NOLOGO 4DString.lib 4DContainer.lib 4DBasic.lib vld.lib vldmt.lib vldmtdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /ManifestFile:"Debug\BaseMapCase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\Debug\BaseMapCase.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\4DClass\Debug\BaseMapCase.lib" /MACHINE:X86 Debug\ChildClass.obj
+         Debug\Main.obj
+         Debug\ParentClass.obj
+         LINK : E:\VisualStudio\4DClass\Debug\BaseMapCase.exe not found or not built by the last incremental link; performing full link
+         BaseMapCase.vcxproj -> E:\VisualStudio\4DClass\Debug\BaseMapCase.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VisualStudio\4DClass\Debug\BaseMapCase.exe;#1" /manifest Debug\BaseMapCase.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BaseMapCase.unsuccessfulbuild".
+         Touching "Debug\BaseMapCase.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\BaseMapCase\BaseMapCase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

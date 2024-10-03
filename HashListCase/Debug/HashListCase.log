@@ -1,0 +1,20 @@
+﻿Build started 2012/1/20 22:57:26.
+     1>Project "E:\VisualStudio\4DClass\HashListCase\HashListCase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HashListCase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\4DClass\Debug\HashListCase.exe" /NOLOGO 4DBasic.lib 4DString.lib 4DGeometry.lib 4DContainer.lib vld.lib vldmt.lib vldmtdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /ManifestFile:"Debug\HashListCase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\Debug\HashListCase.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\4DClass\Debug\HashListCase.lib" /MACHINE:X86 Debug\Main.obj
+         LINK : E:\VisualStudio\4DClass\Debug\HashListCase.exe not found or not built by the last incremental link; performing full link
+         HashListCase.vcxproj -> E:\VisualStudio\4DClass\Debug\HashListCase.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VisualStudio\4DClass\Debug\HashListCase.exe;#1" /manifest Debug\HashListCase.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HashListCase.unsuccessfulbuild".
+         Touching "Debug\HashListCase.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\HashListCase\HashListCase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

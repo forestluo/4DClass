@@ -1,0 +1,39 @@
+﻿Build started 2011/7/25 11:33:26.
+     1>Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dContainers.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dContainers/Release_mt\dContainers.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dContainers/Release_mt\dContainers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dContainers /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dContainersStdAfx.h" /Fp"Win32/dContainers/Release_mt\dContainers.pch" /Fo"Win32/dContainers/Release_mt\\" /Fd"Win32/dContainers/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dContainers\dContainersStdAfx.cpp
+         dContainersStdAfx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dContainers /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dContainersStdAfx.h" /Fp"Win32/dContainers/Release_mt\dContainers.pch" /Fo"Win32/dContainers/Release_mt\\" /Fd"Win32/dContainers/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dContainers\dBaseHierarchy.cpp ..\dContainers\dClassInfo.cpp ..\dContainers\dCRC.cpp ..\dContainers\dRefCounter.cpp ..\dContainers\dThread.cpp ..\dContainers\dTree.cpp
+         dBaseHierarchy.cpp
+         dClassInfo.cpp
+         dCRC.cpp
+         dRefCounter.cpp
+         dThread.cpp
+         dTree.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dContainers/Release_mt\dContainers.lib" /NOLOGO Win32/dContainers/Release_mt\dBaseHierarchy.obj
+         Win32/dContainers/Release_mt\dClassInfo.obj
+         Win32/dContainers/Release_mt\dContainersStdAfx.obj
+         Win32/dContainers/Release_mt\dCRC.obj
+         Win32/dContainers/Release_mt\dRefCounter.obj
+         Win32/dContainers/Release_mt\dThread.obj
+         Win32/dContainers/Release_mt\dTree.obj
+         dContainers.vcxproj -> D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32/dContainers/Release_mt\dContainers.lib
+       PostBuildEvent:
+         xcopy "Win32/dContainers/Release_mt\dContainers.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         :VCEnd
+         D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Release_mt\dContainers.lib -> D:\physics\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dContainers.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dContainers/Release_mt\dContainers.unsuccessfulbuild".
+         Touching "Win32/dContainers/Release_mt\dContainers.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dContainers.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68

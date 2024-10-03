@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="normal">
+      <UniqueIdentifier>{633f0e20-c7fa-4044-a324-fa636cdb7612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle">
+      <UniqueIdentifier>{8e34cc16-e93d-4022-9e25-b94deaac60cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="normal\list">
+      <UniqueIdentifier>{4a8a9014-00b9-4ead-ac08-6a8f7aa47306}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="4DString.cpp" />
+    <ClCompile Include="StringRecycleBin.cpp">
+      <Filter>recycle</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalString.cpp">
+      <Filter>normal</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalStringList.cpp">
+      <Filter>normal\list</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="4DString.h" />
+    <ClInclude Include="StringRecycleBin.h">
+      <Filter>recycle</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalString.h">
+      <Filter>normal</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStringList.h">
+      <Filter>normal\list</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

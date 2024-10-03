@@ -1,0 +1,68 @@
+﻿生成启动时间为 2016/1/19 15:48:36。
+     1>项目“E:\VisualStudio\4DClass_25\D3DXRenderable\D3DXRenderable.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt D3DXAxisObject.cpp D3DXClassicBallJointObjectProxy.cpp D3DXClassicCorkscrewJointObjectProxy.cpp D3DXClassicHingeJointObjectProxy.cpp D3DXClassicSliderJointObjectProxy.cpp D3DXClassicUniversalJointObjectProxy.cpp D3DXClassicUpVectorJointObjectProxy.cpp D3DXCustom6DOFJointObjectProxy.cpp D3DXCustomBallJointObjectProxy.cpp D3DXCustomSliderJointObjectProxy.cpp D3DXCustomHingeJointObjectProxy.cpp D3DXJointObjectProxy.cpp ColorAttribute.cpp ControllerAttribute.cpp D3DXCompoundObject.cpp D3DXJointObject.cpp D3DXPrimitiveObject.cpp EffectAttribute.cpp JointObjectSketcher.cpp ChartletAttribute.cpp ObjectController.cpp ObjectSketcher.cpp PickerAttribute.cpp D3DXRenderableObject.cpp D3DXPlusObject.cpp Sketch0.cpp Sketch1.cpp SketcherAttribute.cpp
+         SketcherAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         Sketch1.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         Sketch0.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXPlusObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXRenderableObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         PickerAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ObjectSketcher.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ObjectController.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ChartletAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         JointObjectSketcher.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         EffectAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXPrimitiveObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXJointObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXCompoundObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ControllerAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         ColorAttribute.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXCustomHingeJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXCustomSliderJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXCustomBallJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         D3DXCustom6DOFJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicUpVectorJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicUniversalJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicSliderJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicHingeJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicCorkscrewJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXClassicBallJointObjectProxy.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         D3DXAxisObject.cpp
+     1>e:\visualstudio\4dclass_25\dxut\core\dxut.h(29): fatal error C1083: 无法打开包括文件:“dxsdkver.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\D3DXRenderable\D3DXRenderable.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.62

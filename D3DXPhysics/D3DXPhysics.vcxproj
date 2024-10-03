@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundScene.h" />
+    <ClInclude Include="CollisionAttribute.h" />
+    <ClInclude Include="CompoundModelManager.h" />
+    <ClInclude Include="CompoundObject.h" />
+    <ClInclude Include="D3DXScene.h" />
+    <ClInclude Include="ArrayManager.h" />
+    <ClInclude Include="ForegroundScene.h" />
+    <ClInclude Include="JointModelManager.h" />
+    <ClInclude Include="JointObject.h" />
+    <ClInclude Include="ModelManager.h" />
+    <ClInclude Include="NoneScene.h" />
+    <ClInclude Include="PickedAttribute.h" />
+    <ClInclude Include="PrimitiveObject.h" />
+    <ClInclude Include="CompoundAxisObject.h" />
+    <ClInclude Include="CompoundBoxObject.h" />
+    <ClInclude Include="CompoundPlusObject.h" />
+    <ClInclude Include="WorldGroup.h" />
+    <ClInclude Include="SimpleScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundScene.cpp" />
+    <ClCompile Include="CollisionAttribute.cpp" />
+    <ClCompile Include="CompoundModelManager.cpp" />
+    <ClCompile Include="CompoundObject.cpp" />
+    <ClCompile Include="D3DXScene.cpp" />
+    <ClCompile Include="ArrayManager.cpp" />
+    <ClCompile Include="ForegroundScene.cpp" />
+    <ClCompile Include="JointModelManager.cpp" />
+    <ClCompile Include="JointObject.cpp" />
+    <ClCompile Include="ModelManager.cpp" />
+    <ClCompile Include="NoneScene.cpp" />
+    <ClCompile Include="PickedAttribute.cpp" />
+    <ClCompile Include="PrimitiveObject.cpp" />
+    <ClCompile Include="CompoundAxisObject.cpp" />
+    <ClCompile Include="CompoundBoxObject.cpp" />
+    <ClCompile Include="CompoundPlusObject.cpp" />
+    <ClCompile Include="WorldGroup.cpp" />
+    <ClCompile Include="SimpleScene.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7752F31-03B7-4157-959A-4ED80F44C16D}</ProjectGuid>
+    <RootNamespace>D3DXPhysics</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\4DJoint;..\4DMath;..\4DBasic;..\4DString;..\4DGeometry;..\4DContainer;..\4DCollision;..\4DWorld;..\4DPhysics;..\4DNewton;..\4DRenderable;..\D3DXResource;..\D3DXRenderable;..\D3DXPhysics;..\D3DXApplication;..\4DMisc;..\DXUT\Core;..\DXUT\Optional;$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

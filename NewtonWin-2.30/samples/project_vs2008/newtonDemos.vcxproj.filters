@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="toobox">
+      <UniqueIdentifier>{b7a57718-e72f-48d0-93c6-c130703fbe96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demos">
+      <UniqueIdentifier>{d54146d0-3d3c-4e0d-ab7f-790df6e88321}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\sdkDemos\newtonDemos.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\sdkDemos\newtonDemos.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sdkDemos\toolBox\DebugDisplay.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\dHeightResolutionTimer.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\dRuntimeProfiler.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\dSimulationThread.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\glContext.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\OpenGlUtil.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\SkyBox.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\TargaToOpenGl.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\toolBox\toolbox_stdafx.cpp">
+      <Filter>toobox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\demos\BasicFriction.cpp">
+      <Filter>demos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\demos\BasicSphereSpin.cpp">
+      <Filter>demos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\demos\BasicStacking.cpp">
+      <Filter>demos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\demos\ClosestDistance.cpp">
+      <Filter>demos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\demos\LoadSaveScene.cpp">
+      <Filter>demos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdkDemos\DemoCamera.cpp" />
+    <ClCompile Include="..\sdkDemos\DemoEntity.cpp" />
+    <ClCompile Include="..\sdkDemos\DemoEntityManager.cpp" />
+    <ClCompile Include="..\sdkDemos\DemoMesh.cpp" />
+    <ClCompile Include="..\sdkDemos\windowsMain\NewtonDemos.cpp" />
+    <ClCompile Include="..\sdkDemos\PhysicsUtils.cpp" />
+    <ClCompile Include="..\sdkDemos\sdkDemos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdkDemos\toolBox\DebugDisplay.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\dHeightResolutionTimer.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\dRuntimeProfiler.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\dSimulationThread.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\glContext.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\OpenGlUtil.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\SkyBox.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\TargaToOpenGl.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\toolBox\toolbox_stdafx.h">
+      <Filter>toobox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdkDemos\DemoCamera.h" />
+    <ClInclude Include="..\sdkDemos\DemoEntity.h" />
+    <ClInclude Include="..\sdkDemos\DemoEntityManager.h" />
+    <ClInclude Include="..\sdkDemos\DemoMesh.h" />
+    <ClInclude Include="..\sdkDemos\windowsMain\NewtonDemos.h" />
+    <ClInclude Include="..\sdkDemos\PhysicsUtils.h" />
+    <ClInclude Include="..\sdkDemos\resource.h" />
+    <ClInclude Include="..\sdkDemos\sdkDemos.h" />
+  </ItemGroup>
+</Project>

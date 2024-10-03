@@ -1,0 +1,24 @@
+﻿Build started 2012/2/1 23:27:10.
+     1>Project "E:\VisualStudio\4DClass\MFCApplication\MFCApplication.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MFCApplication.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFCApplication.cpp
+         MFCApplication.cpp
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\VisualStudio\4DClass\Debug\MFCApplication.lib" /NOLOGO Debug\d3dutil.obj
+         Debug\dxutil.obj
+         Debug\MFCApplication.obj
+         Debug\XD3D.obj
+         Debug\XD3DEnum.obj
+         Debug\XD3DSettings.obj
+         Debug\XD3DUtil.obj
+         MFCApplication.vcxproj -> E:\VisualStudio\4DClass\Debug\MFCApplication.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\MFCApplication.unsuccessfulbuild".
+         Touching "Debug\MFCApplication.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\4DClass\MFCApplication\MFCApplication.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.78

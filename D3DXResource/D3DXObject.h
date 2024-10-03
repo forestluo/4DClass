@@ -1,0 +1,72 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// D3DXObject.h
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _D3DX_OBJECT_H_
+#define _D3DX_OBJECT_H_
+
+#pragma once
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "4DBase.h"
+#include "D3DXEvent.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CD3DXObject
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class CD3DXObject
+{
+private:
+	//Base description.
+	static const C4DBase base;
+
+public:
+	CD3DXObject(void);
+	virtual ~CD3DXObject(void);
+
+	/**
+	 * Get class code.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Hash code of this class.</p>
+	 */
+	static _LONG getClassCode() {return base.classCode();}
+
+	/**
+	 * Get class code.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Hash code of this class.</p>
+	 */
+	virtual _LONG classCode() const {return base.classCode();}
+
+public:
+
+	///////////////////////////////////////
+	//
+	// HandleMessage
+	//
+	// This function should be overloaded when adjustment is needed.
+	// Currently it is an empty function, just do nothing and return.
+	//
+	///////////////////////////////////////
+	virtual HRESULT handleMessage(const D3DXEvent& d3dxEvent);
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_D3DX_OBJECT_H_

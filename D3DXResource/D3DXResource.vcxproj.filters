@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="object">
+      <UniqueIdentifier>{a0ccc9a0-3f2b-424c-a0e7-8d41f560c157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\event">
+      <UniqueIdentifier>{41880ee2-d481-41fd-b181-4438636c86b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{3672275f-263e-421f-ab3e-d0174ac4066a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\effect">
+      <UniqueIdentifier>{0a30f480-1506-431e-8014-055be2ce0c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable">
+      <UniqueIdentifier>{bdb1abc0-8edb-4ab0-a89d-f106d9dd0f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\texture">
+      <UniqueIdentifier>{038e947e-0bd6-46c4-8fe9-a8bbefa6a4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\attribute">
+      <UniqueIdentifier>{3ffeec03-55f2-4b91-b57f-68e8573ab5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\attribute\effect">
+      <UniqueIdentifier>{0375f16d-ecc8-47a0-a3a1-d647dfcc9a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\attribute\index">
+      <UniqueIdentifier>{27e78f38-42aa-46f4-bc2e-dd7640e0bfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\attribute\pick">
+      <UniqueIdentifier>{507af9ce-708d-40c7-9586-7aacbb235c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\attribute\vertex">
+      <UniqueIdentifier>{50bbd15c-526e-4b36-bda0-b704b49de3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\pick">
+      <UniqueIdentifier>{530a250a-a8fd-4fb5-83b9-6a9dad794f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\pick\ball">
+      <UniqueIdentifier>{87161c63-7d07-4145-a151-5a166ead9f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewport">
+      <UniqueIdentifier>{a849ea9f-73da-40e5-84bc-d5c31e6ad5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewport\model">
+      <UniqueIdentifier>{1a47d545-9172-4c29-b635-b750126c06df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewport\personal">
+      <UniqueIdentifier>{72af1d4b-0f7a-4145-a721-7c6b00ca62ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\linestrip">
+      <UniqueIdentifier>{bf964d9d-de2f-4eab-ab9f-6cf43f894441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\primitive">
+      <UniqueIdentifier>{5929523d-7bc3-4c0a-a9b6-88bd92b81ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\mesh">
+      <UniqueIdentifier>{f0541ea2-279c-423f-92ff-57f7b36667bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{fffc6ceb-36b1-40bf-abdb-eb7d1627a2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\resource">
+      <UniqueIdentifier>{be4d45be-4586-4efc-8f9f-732937413725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\viewport">
+      <UniqueIdentifier>{fe62d94c-8b28-47b4-9c01-831f2bf8a948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager">
+      <UniqueIdentifier>{8a7cb22d-8fb1-4073-b71d-d369e38cab77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\renderable">
+      <UniqueIdentifier>{8fb535b7-176e-4ecd-b9d9-1757530981ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\resource">
+      <UniqueIdentifier>{b631468f-2cc7-49dc-a02a-9a68710b3549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\renderable\linestrip\axis0">
+      <UniqueIdentifier>{94cc88aa-ba9c-42fa-99e2-3b1a122b0a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\texture\static">
+      <UniqueIdentifier>{bb1d4ecf-b607-4ca6-960b-31dab493b00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\texture\dynamic">
+      <UniqueIdentifier>{a5e62526-4b2b-4124-b67c-a7ceae1323be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\effect">
+      <UniqueIdentifier>{29b51c05-ecf3-46ea-9278-5b8698149f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\texture">
+      <UniqueIdentifier>{975c7db9-b0da-48c6-bf89-f2bba12486c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\linestrip">
+      <UniqueIdentifier>{01d01d9e-3a7d-462c-81f1-54a10bc7c3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\primitive">
+      <UniqueIdentifier>{fda91205-9abb-47ad-9dc6-31b237ff9ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\mesh">
+      <UniqueIdentifier>{832ffe2b-240a-467b-89ee-6c043cc53b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\group">
+      <UniqueIdentifier>{a29bdbd3-0f4d-4651-a534-746d1edc87dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\device">
+      <UniqueIdentifier>{cfb14137-1ce4-4d69-bfb6-7c95914845d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\reference">
+      <UniqueIdentifier>{359b26c2-ed0d-449b-83fb-ba06a1776ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\device">
+      <UniqueIdentifier>{a77e5c98-92a4-4344-9f1d-5c8c0b0cbd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\filter">
+      <UniqueIdentifier>{70b66f44-e841-41ee-8ca8-ff8018db1b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\manager\filter">
+      <UniqueIdentifier>{3cdac2a6-1fd0-468b-a6c9-e78b81c3b0a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DXEvent.cpp">
+      <Filter>object\event</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXResource.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXTexture.cpp">
+      <Filter>resource\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXEffect.cpp">
+      <Filter>resource\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXRenderable.cpp">
+      <Filter>resource\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXEffectAttribute.cpp">
+      <Filter>resource\renderable\attribute\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXIndexAttribute.cpp">
+      <Filter>resource\renderable\attribute\index</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXPickAttribute.cpp">
+      <Filter>resource\renderable\attribute\pick</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXVertexAttribute.cpp">
+      <Filter>resource\renderable\attribute\vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBall.cpp">
+      <Filter>resource\pick\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="PickIntersection.cpp">
+      <Filter>resource\pick</Filter>
+    </ClCompile>
+    <ClCompile Include="PickRay.cpp">
+      <Filter>resource\pick</Filter>
+    </ClCompile>
+    <ClCompile Include="PickResult.cpp">
+      <Filter>resource\pick</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalViewPort.cpp">
+      <Filter>viewport\personal</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewPort.cpp">
+      <Filter>viewport\model</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableManager.cpp">
+      <Filter>application\manager\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXLinestrip.cpp">
+      <Filter>resource\renderable\linestrip</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXFileMesh.cpp">
+      <Filter>resource\renderable\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXPrimitive.cpp">
+      <Filter>resource\renderable\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>application\manager\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis0.cpp">
+      <Filter>resource\renderable\linestrip\axis0</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceApplication.cpp">
+      <Filter>application\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPortApplication.cpp">
+      <Filter>application\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXDynamicTexture.cpp">
+      <Filter>resource\texture\dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXStaticTexture.cpp">
+      <Filter>resource\texture\static</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>application\manager\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>application\manager\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="LinestripManager.cpp">
+      <Filter>application\manager\linestrip</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveManager.cpp">
+      <Filter>application\manager\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>application\manager\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXResourceGroup.cpp">
+      <Filter>application\manager\group</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXDeviceReference.cpp">
+      <Filter>application\manager\reference</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXDevice.cpp">
+      <Filter>resource\device</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>application\manager\device</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXFilter.cpp">
+      <Filter>resource\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterManager.cpp">
+      <Filter>application\manager\filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DXEvent.h">
+      <Filter>object\event</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXUtility.h" />
+    <ClInclude Include="D3DXResource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceName.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXTexture.h">
+      <Filter>resource\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXEffect.h">
+      <Filter>resource\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXRenderable.h">
+      <Filter>resource\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXEffectAttribute.h">
+      <Filter>resource\renderable\attribute\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXIndexAttribute.h">
+      <Filter>resource\renderable\attribute\index</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXPickAttribute.h">
+      <Filter>resource\renderable\attribute\pick</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXVertexAttribute.h">
+      <Filter>resource\renderable\attribute\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBall.h">
+      <Filter>resource\pick\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="PickIntersection.h">
+      <Filter>resource\pick</Filter>
+    </ClInclude>
+    <ClInclude Include="PickRay.h">
+      <Filter>resource\pick</Filter>
+    </ClInclude>
+    <ClInclude Include="PickResult.h">
+      <Filter>resource\pick</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXVertex.h">
+      <Filter>resource\renderable\attribute\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalViewPort.h">
+      <Filter>viewport\personal</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewPort.h">
+      <Filter>viewport\model</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableManager.h">
+      <Filter>application\manager\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXLinestrip.h">
+      <Filter>resource\renderable\linestrip</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXFileMesh.h">
+      <Filter>resource\renderable\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXPrimitive.h">
+      <Filter>resource\renderable\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>application\manager\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis0.h">
+      <Filter>resource\renderable\linestrip\axis0</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceApplication.h">
+      <Filter>application\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPortApplication.h">
+      <Filter>application\viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXDynamicTexture.h">
+      <Filter>resource\texture\dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXStaticTexture.h">
+      <Filter>resource\texture\static</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>application\manager\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>application\manager\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="LinestripManager.h">
+      <Filter>application\manager\linestrip</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveManager.h">
+      <Filter>application\manager\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>application\manager\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXResourceGroup.h">
+      <Filter>application\manager\group</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXDeviceReference.h">
+      <Filter>application\manager\reference</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXDevice.h">
+      <Filter>resource\device</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>application\manager\device</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXFilter.h">
+      <Filter>resource\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterManager.h">
+      <Filter>application\manager\filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

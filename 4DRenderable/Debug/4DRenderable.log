@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/1/19 15:48:31。
+     1>项目“E:\VisualStudio\4DClass_25\4DRenderable\4DRenderable.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CapsuleAttribute.cpp ChamferCylinderAttribute.cpp CircleAttribute.cpp ConeAttribute.cpp CuboidAttribute.cpp CylinderAttribute.cpp FrustumAttribute.cpp GridAttribute.cpp HemisphereAttribute.cpp IndexAttribute.cpp NormalAttribute.cpp PolygonAttribute.cpp PrimitiveAttribute.cpp QuadrangleAttribute.cpp ReferenceAttribute.cpp RenderableAttribute.cpp SliceAttribute.cpp SphereAttribute.cpp TextureAttribute.cpp TriangleAttribute.cpp VertexAttribute.cpp
+         VertexAttribute.cpp
+         TriangleAttribute.cpp
+         TextureAttribute.cpp
+         SphereAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\sphereattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         SliceAttribute.cpp
+         RenderableAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\renderableattribute.cpp(18): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         ReferenceAttribute.cpp
+         QuadrangleAttribute.cpp
+         PrimitiveAttribute.cpp
+         PolygonAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\polygonattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         NormalAttribute.cpp
+         IndexAttribute.cpp
+         HemisphereAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\hemisphereattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         GridAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4dmisc\dxmath.h(19): fatal error C1083: 无法打开包括文件:“D3dx9math.h”: No such file or directory
+         FrustumAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\frustumattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         CylinderAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\cylinderattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         CuboidAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4dmisc\dxmath.h(19): fatal error C1083: 无法打开包括文件:“D3dx9math.h”: No such file or directory
+         ConeAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\coneattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         CircleAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\circleattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         ChamferCylinderAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\chamfercylinderattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         CapsuleAttribute.cpp
+     1>e:\visualstudio\4dclass_25\4drenderable\capsuleattribute.cpp(19): fatal error C1083: 无法打开包括文件:“D3DX10Math.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\VisualStudio\4DClass_25\4DRenderable\4DRenderable.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.48

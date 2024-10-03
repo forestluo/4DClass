@@ -1,0 +1,72 @@
+﻿Build started 2011/8/10 14:37:30.
+     1>Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dJointLibrary/Debug_mt\dJointLibrary.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dJointLibrary/Debug_mt\dJointLibrary.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"CustomJointLibraryStdAfx.h" /Fp"Win32/dJointLibrary/Debug_mt\dJointLibrary.pch" /Fo"Win32/dJointLibrary/Debug_mt\\" /Fd"Win32/dJointLibrary/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dCustomJoints\CustomJointLibraryStdAfx.cpp
+         CustomJointLibraryStdAfx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dCustomJoints /Zi /nologo /W4 /WX- /Od /Ob2 /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JOINTLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"CustomJointLibraryStdAfx.h" /Fp"Win32/dJointLibrary/Debug_mt\dJointLibrary.pch" /Fo"Win32/dJointLibrary/Debug_mt\\" /Fd"Win32/dJointLibrary/Debug_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dCustomJoints\Custom6DOF.cpp ..\dCustomJoints\CustomBallAndSocket.cpp ..\dCustomJoints\CustomCorkScrew.cpp ..\dCustomJoints\CustomDGRayCastCar.cpp ..\dCustomJoints\CustomDryRollingFriction.cpp ..\dCustomJoints\CustomGear.cpp ..\dCustomJoints\CustomHinge.cpp ..\dCustomJoints\CustomKinematicController.cpp ..\dCustomJoints\CustomMultiBodyVehicle.cpp ..\dCustomJoints\CustomPathFollow.cpp ..\dCustomJoints\CustomPlayerController.cpp ..\dCustomJoints\CustomPulley.cpp ..\dCustomJoints\CustomRagDoll.cpp ..\dCustomJoints\CustomSlider.cpp ..\dCustomJoints\CustomSlidingContact.cpp ..\dCustomJoints\CustomUniversal.cpp ..\dCustomJoints\CustomUpVector.cpp ..\dCustomJoints\CustomUserBlank.cpp ..\dCustomJoints\CustomWormGear.cpp ..\dCustomJoints\JointLibrary.cpp ..\dCustomJoints\NewtonCustomJoint.cpp
+         NewtonCustomJoint.cpp
+         JointLibrary.cpp
+         CustomWormGear.cpp
+         CustomUserBlank.cpp
+         CustomUpVector.cpp
+         CustomUniversal.cpp
+         CustomSlidingContact.cpp
+         CustomSlider.cpp
+         CustomRagDoll.cpp
+         CustomPulley.cpp
+         CustomPlayerController.cpp
+         CustomPathFollow.cpp
+         CustomMultiBodyVehicle.cpp
+         CustomKinematicController.cpp
+         CustomHinge.cpp
+         CustomGear.cpp
+         CustomDryRollingFriction.cpp
+         CustomDGRayCastCar.cpp
+     1>..\dCustomJoints\CustomDGRayCastCar.cpp(101): warning C4189: 'sideSlip' : local variable is initialized but not referenced
+         CustomCorkScrew.cpp
+         CustomBallAndSocket.cpp
+         Generating Code...
+         Compiling...
+         Custom6DOF.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32/dJointLibrary/Debug_mt\dJointLibrary.dll) does not match the Linker's OutputFile property value (E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Debug_mt\dJointLibrary_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(dJointLibrary) does not match the Linker's OutputFile property value (dJointLibrary_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32/dJointLibrary/Debug_mt\dJointLibrary_d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../x32\dll_vs9 newton.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/dJointLibrary/Debug_mt\dJointLibrary.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dJointLibrary\Debug_mt\dJointLibrary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32/dJointLibrary/Debug_mt\dJointLibrary_d.lib" /MACHINE:X86 /DLL Win32/dJointLibrary/Debug_mt\Custom6DOF.obj
+         Win32/dJointLibrary/Debug_mt\CustomBallAndSocket.obj
+         Win32/dJointLibrary/Debug_mt\CustomCorkScrew.obj
+         Win32/dJointLibrary/Debug_mt\CustomDGRayCastCar.obj
+         Win32/dJointLibrary/Debug_mt\CustomDryRollingFriction.obj
+         Win32/dJointLibrary/Debug_mt\CustomGear.obj
+         Win32/dJointLibrary/Debug_mt\CustomHinge.obj
+         Win32/dJointLibrary/Debug_mt\CustomJointLibraryStdAfx.obj
+         Win32/dJointLibrary/Debug_mt\CustomKinematicController.obj
+         Win32/dJointLibrary/Debug_mt\CustomMultiBodyVehicle.obj
+         Win32/dJointLibrary/Debug_mt\CustomPathFollow.obj
+         Win32/dJointLibrary/Debug_mt\CustomPlayerController.obj
+         Win32/dJointLibrary/Debug_mt\CustomPulley.obj
+         Win32/dJointLibrary/Debug_mt\CustomRagDoll.obj
+         Win32/dJointLibrary/Debug_mt\CustomSlider.obj
+         Win32/dJointLibrary/Debug_mt\CustomSlidingContact.obj
+         Win32/dJointLibrary/Debug_mt\CustomUniversal.obj
+         Win32/dJointLibrary/Debug_mt\CustomUpVector.obj
+         Win32/dJointLibrary/Debug_mt\CustomUserBlank.obj
+         Win32/dJointLibrary/Debug_mt\CustomWormGear.obj
+         Win32/dJointLibrary/Debug_mt\JointLibrary.obj
+         Win32/dJointLibrary/Debug_mt\NewtonCustomJoint.obj
+         "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Debug_mt\dMath_d.lib"
+     1>MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __CrtDbgReportW already defined in LIBCMTD.lib(dbgrptw.obj)
+     1>MSVCRTD.lib(ti_inst.obj) : error LNK2005: "private: __thiscall type_info::type_info(class type_info const &)" (??0type_info@@AAE@ABV0@@Z) already defined in LIBCMTD.lib(typinfo.obj)
+     1>MSVCRTD.lib(ti_inst.obj) : error LNK2005: "private: class type_info & __thiscall type_info::operator=(class type_info const &)" (??4type_info@@AAEAAV0@ABV0@@Z) already defined in LIBCMTD.lib(typinfo.obj)
+            Creating library Win32/dJointLibrary/Debug_mt\dJointLibrary_d.lib and object Win32/dJointLibrary/Debug_mt\dJointLibrary_d.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Win32/dJointLibrary/Debug_mt\dJointLibrary_d.dll : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "E:\VisualStudio\4DClass\NewtonWin-2.30\sdk\projects_vs2008\dJointLibrary.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.41

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{4450a01a-bb84-4bc9-ab18-f5f9b2e3ca21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\physics">
+      <UniqueIdentifier>{a4916e56-3bc2-4bab-97b0-08a07151c3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\force">
+      <UniqueIdentifier>{0bfbfddc-2856-432c-bd07-d8095cee04ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute\status">
+      <UniqueIdentifier>{eff714f6-3158-42cf-a48b-057ff5e2bba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keeper">
+      <UniqueIdentifier>{8ca087f1-2350-4d8c-9982-4e5880339044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{59fa2a27-64f0-4d8c-aeeb-623747f4ab38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\primitive">
+      <UniqueIdentifier>{922e6eff-8cec-4e2b-ae68-ba82a4e069ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\compound">
+      <UniqueIdentifier>{a0e5129b-f646-4807-a120-83829d94358f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint">
+      <UniqueIdentifier>{3ea154f1-a562-4f8e-a19b-0cc797855236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\attribute">
+      <UniqueIdentifier>{b725c426-208b-424a-abef-3637f9409054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\joint\attribute\force">
+      <UniqueIdentifier>{624db0f8-7879-41f6-9c22-6687fd74d0b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ForceAttribute.cpp">
+      <Filter>attribute\force</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusAttribute.cpp">
+      <Filter>attribute\status</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsAttribute.cpp">
+      <Filter>attribute\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusKeeper.cpp">
+      <Filter>keeper</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp" />
+    <ClCompile Include="PhysicsPrimitiveObject.cpp">
+      <Filter>object\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsJointObject.cpp">
+      <Filter>object\joint</Filter>
+    </ClCompile>
+    <ClCompile Include="JointForceAttribute.cpp">
+      <Filter>object\joint\attribute\force</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCompoundObject.cpp">
+      <Filter>object\compound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ForceAttribute.h">
+      <Filter>attribute\force</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusAttribute.h">
+      <Filter>attribute\status</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAttribute.h">
+      <Filter>attribute\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusKeeper.h">
+      <Filter>keeper</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h" />
+    <ClInclude Include="PhysicsPrimitiveObject.h">
+      <Filter>object\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsJointObject.h">
+      <Filter>object\joint</Filter>
+    </ClInclude>
+    <ClInclude Include="JointForceAttribute.h">
+      <Filter>object\joint\attribute\force</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCompoundObject.h">
+      <Filter>object\compound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

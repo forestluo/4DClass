@@ -1,0 +1,88 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// D3DXPlusObject.h
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "D3DXPlusObject.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+#include "ResourceName.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CD3DXPlusObject
+//
+// Default construction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CD3DXPlusObject::CD3DXPlusObject(void)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CD3DXPlusObject
+//
+// Default deconstruction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CD3DXPlusObject::~CD3DXPlusObject(void)
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// InitializeObjects
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+HRESULT CD3DXPlusObject::initializeObjects(CResourceApplication* resourceApplication)
+{
+	//Primitive object.
+	CD3DXPrimitiveObject* object;
+#ifdef _DEBUG
+	assert(resourceApplication != _NULL);
+#endif
+
+	//Get resource manager.
+	CResourceManager* resourceManager = resourceApplication->getResourceManager();
+#ifdef _DEBUG
+	assert(resourceManager != NULL);
+#endif
+
+	//Add model.
+	object = addObject(resourceManager,PRIMITIVE_CUBOID0);
+#ifdef _DEBUG
+	assert(object != _NULL);
+#endif
+	//Set name.
+	object->setAlias(L"ºáÁº(",L")");
+	//Scale it.
+	object->setScale(1.0f,0.2f,0.2f);
+
+	//Add object.
+	object = addObject(resourceManager,PRIMITIVE_CUBOID0);
+#ifdef _DEBUG
+	assert(object != _NULL);
+#endif
+	//Set name.
+	object->setAlias(L"ÊúÁº(",L")");
+	//Scale it.
+	object->setScale(0.2f,1.0f,0.2f);
+
+	//Return OK.
+	return S_OK;
+}

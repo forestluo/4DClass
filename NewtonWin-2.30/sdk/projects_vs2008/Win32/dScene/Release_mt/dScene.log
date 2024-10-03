@@ -1,0 +1,87 @@
+﻿Build started 2011/7/25 11:33:20.
+     1>Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dScene.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/dScene/Release_mt\dScene.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32/dScene/Release_mt\dScene.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dContainers /I../thirdParty/tinyxml /I../thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DSCENE_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"dPlugInStdafx.h" /Fp"Win32/dScene/Release_mt\dScene.pch" /Fo"Win32/dScene/Release_mt\\" /Fd"Win32/dScene/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dScene\dPluginStdafx.cpp
+         dPluginStdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../sdk /I../dMath /I../dContainers /I../thirdParty/tinyxml /I../thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DSCENE_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"dPlugInStdafx.h" /Fp"Win32/dScene/Release_mt\dScene.pch" /Fo"Win32/dScene/Release_mt\\" /Fd"Win32/dScene/Release_mt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dScene\dBoneNodeInfo.cpp ..\dScene\dCameraNodeInfo.cpp ..\dScene\dCollisionBoxNodeInfo.cpp ..\dScene\dCollisionCapsuleNodeInfo.cpp ..\dScene\dCollisionChamferCylinderNodeInfo.cpp ..\dScene\dCollisionCompoundNodeInfo.cpp ..\dScene\dCollisionConeNodeInfo.cpp ..\dScene\dCollisionConvexHullNodeInfo.cpp ..\dScene\dCollisionCylinderNodeInfo.cpp ..\dScene\dCollisionNodeInfo.cpp ..\dScene\dCollisionSphereNodeInfo.cpp ..\dScene\dDrawUtils.cpp ..\dScene\dExportPlugin.cpp ..\dScene\dGeometryNodeInfo.cpp ..\dScene\dGeometryNodeModifierInfo.cpp ..\dScene\dGeometryNodeSkinModifierInfo.cpp ..\dScene\dImportPlugin.cpp ..\dScene\dllmain.cpp ..\dScene\dMaterialNodeInfo.cpp ..\dScene\dMeshNodeInfo.cpp ..\dScene\dNodeInfo.cpp ..\dScene\dPluginRecord.cpp ..\dScene\dRigidbodyNodeInfo.cpp ..\dScene\dRootNodeInfo.cpp ..\dScene\dScene.cpp ..\dScene\dSceneGraph.cpp ..\dScene\dSceneNodeInfo.cpp ..\dScene\dTextureNodeInfo.cpp ..\dScene\dVariable.cpp
+         dBoneNodeInfo.cpp
+         dCameraNodeInfo.cpp
+         dCollisionBoxNodeInfo.cpp
+         dCollisionCapsuleNodeInfo.cpp
+         dCollisionChamferCylinderNodeInfo.cpp
+         dCollisionCompoundNodeInfo.cpp
+         dCollisionConeNodeInfo.cpp
+         dCollisionConvexHullNodeInfo.cpp
+         dCollisionCylinderNodeInfo.cpp
+         dCollisionNodeInfo.cpp
+         dCollisionSphereNodeInfo.cpp
+         dDrawUtils.cpp
+         dExportPlugin.cpp
+         dGeometryNodeInfo.cpp
+         dGeometryNodeModifierInfo.cpp
+         dGeometryNodeSkinModifierInfo.cpp
+         dImportPlugin.cpp
+         dllmain.cpp
+         dMaterialNodeInfo.cpp
+         dMeshNodeInfo.cpp
+         Generating Code...
+         Compiling...
+         dNodeInfo.cpp
+         dPluginRecord.cpp
+         dRigidbodyNodeInfo.cpp
+         dRootNodeInfo.cpp
+         dScene.cpp
+         dSceneGraph.cpp
+         dSceneNodeInfo.cpp
+         dTextureNodeInfo.cpp
+         dVariable.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32/dScene/Release_mt\dScene.lib" /NOLOGO Win32/dScene/Release_mt\dBoneNodeInfo.obj
+         Win32/dScene/Release_mt\dCameraNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionBoxNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionCapsuleNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionChamferCylinderNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionCompoundNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionConeNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionConvexHullNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionCylinderNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionNodeInfo.obj
+         Win32/dScene/Release_mt\dCollisionSphereNodeInfo.obj
+         Win32/dScene/Release_mt\dDrawUtils.obj
+         Win32/dScene/Release_mt\dExportPlugin.obj
+         Win32/dScene/Release_mt\dGeometryNodeInfo.obj
+         Win32/dScene/Release_mt\dGeometryNodeModifierInfo.obj
+         Win32/dScene/Release_mt\dGeometryNodeSkinModifierInfo.obj
+         Win32/dScene/Release_mt\dImportPlugin.obj
+         Win32/dScene/Release_mt\dllmain.obj
+         Win32/dScene/Release_mt\dMaterialNodeInfo.obj
+         Win32/dScene/Release_mt\dMeshNodeInfo.obj
+         Win32/dScene/Release_mt\dNodeInfo.obj
+         Win32/dScene/Release_mt\dPluginRecord.obj
+         Win32/dScene/Release_mt\dPluginStdafx.obj
+         Win32/dScene/Release_mt\dRigidbodyNodeInfo.obj
+         Win32/dScene/Release_mt\dRootNodeInfo.obj
+         Win32/dScene/Release_mt\dScene.obj
+         Win32/dScene/Release_mt\dSceneGraph.obj
+         Win32/dScene/Release_mt\dSceneNodeInfo.obj
+         Win32/dScene/Release_mt\dTextureNodeInfo.obj
+         Win32/dScene/Release_mt\dVariable.obj
+         dScene.vcxproj -> D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32/dScene/Release_mt\dScene.lib
+       PostBuildEvent:
+         xcopy "Win32/dScene/Release_mt\dScene.lib" "../X32/lib_vs9_mt/*.*"  /F /Y
+         :VCEnd
+         D:\physics\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Release_mt\dScene.lib -> D:\physics\NewtonWin-2.30\sdk\X32\lib_vs9_mt\dScene.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32/dScene/Release_mt\dScene.unsuccessfulbuild".
+         Touching "Win32/dScene/Release_mt\dScene.lastbuildstate".
+     1>Done Building Project "D:\physics\NewtonWin-2.30\sdk\projects_vs2008\dScene.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.48

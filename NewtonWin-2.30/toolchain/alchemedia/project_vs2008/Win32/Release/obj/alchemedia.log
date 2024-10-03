@@ -1,0 +1,73 @@
+﻿Build started 2011/7/24 20:04:35.
+     1>Project "E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\project_vs2008\alchemedia.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Release/obj\alchemedia.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Release/obj\alchemedia.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../../../sdk /I../../../sdk/dMath /I../../../sdk/dScene /I../../../sdk/dContainers /I../../../sdk/dCustomJoints /I../../../sdk/thirdParty/tinyxml /I../../../sdk/thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"alchemediaStdAfx.h" /Fp"Win32\Release/obj\alchemedia.pch" /Fo"Win32\Release/obj\\" /Fd"Win32\Release/obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\alchemediaStdafx.cpp
+         alchemediaStdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../../../sdk /I../../../sdk/dMath /I../../../sdk/dScene /I../../../sdk/dContainers /I../../../sdk/dCustomJoints /I../../../sdk/thirdParty/tinyxml /I../../../sdk/thirdParty/glew/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"alchemediaStdAfx.h" /Fp"Win32\Release/obj\alchemedia.pch" /Fo"Win32\Release/obj\\" /Fd"Win32\Release/obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\alchemediaCamera.cpp ..\alchemediaScene.cpp ..\alchemediaSceneNode.cpp ..\alchemediaStaticMesh.cpp ..\AlchemdiaSmoothMeshAngleDlg.cpp ..\alchemedia.cpp ..\alchemediaDoc.cpp ..\alchemediaExplorerView.cpp ..\alchemediaMainFrm.cpp ..\alchemediaSplitterViewports.cpp ..\alchemediaTexCache.cpp ..\alchemediaView.cpp ..\alchemediaViewerToolBar.cpp ..\ClassView.cpp ..\OutputWnd.cpp ..\PropertiesWnd.cpp ..\ViewTree.cpp
+         alchemediaCamera.cpp
+         alchemediaScene.cpp
+         alchemediaSceneNode.cpp
+         alchemediaStaticMesh.cpp
+         AlchemdiaSmoothMeshAngleDlg.cpp
+         alchemedia.cpp
+         alchemediaDoc.cpp
+         alchemediaExplorerView.cpp
+         alchemediaMainFrm.cpp
+         alchemediaSplitterViewports.cpp
+         alchemediaTexCache.cpp
+         alchemediaView.cpp
+         alchemediaViewerToolBar.cpp
+         ClassView.cpp
+         OutputWnd.cpp
+         PropertiesWnd.cpp
+         ViewTree.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0409" /IWin32\Release/obj\ /nologo /fo"Win32\Release/obj\alchemedia.res" ..\alchemedia.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\project_vs2008\Win32\Release\alchemedia.exe) does not match the Linker's OutputFile property value (E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\Win32\alchemedia.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Win32/alchemedia.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../sdk/x32/dll_vs9 glu32.lib opengl32.lib newton.lib /MANIFEST /ManifestFile:"Win32\Release/obj\alchemedia.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\project_vs2008\Win32\Release\alchemedia.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Release\alchemedia.lib" /MACHINE:X86 Win32\Release/obj\alchemedia.res
+         Win32\Release/obj\alchemediaCamera.obj
+         Win32\Release/obj\alchemediaScene.obj
+         Win32\Release/obj\alchemediaSceneNode.obj
+         Win32\Release/obj\alchemediaStaticMesh.obj
+         Win32\Release/obj\AlchemdiaSmoothMeshAngleDlg.obj
+         Win32\Release/obj\alchemedia.obj
+         Win32\Release/obj\alchemediaDoc.obj
+         Win32\Release/obj\alchemediaExplorerView.obj
+         Win32\Release/obj\alchemediaMainFrm.obj
+         Win32\Release/obj\alchemediaSplitterViewports.obj
+         Win32\Release/obj\alchemediaStdafx.obj
+         Win32\Release/obj\alchemediaTexCache.obj
+         Win32\Release/obj\alchemediaView.obj
+         Win32\Release/obj\alchemediaViewerToolBar.obj
+         Win32\Release/obj\ClassView.obj
+         Win32\Release/obj\OutputWnd.obj
+         Win32\Release/obj\PropertiesWnd.obj
+         Win32\Release/obj\ViewTree.obj
+         "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32\dContainers\Release_mt\dContainers.lib"
+         "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32\dMath\Release_mt\dMath.lib"
+         "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32\dScene\Release_mt\dScene.lib"
+         "E:\VisualStudio\NewtonWin-2.30\sdk\projects_vs2008\Win32\tinyxml\Release_mt\tinyxml.lib"
+         Generating code
+         Finished generating code
+         alchemedia.vcxproj -> E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\project_vs2008\Win32\Release\alchemedia.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../Win32/alchemedia.exe;#1" /manifest Win32\Release/obj\alchemedia.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       PostBuildEvent:
+         xcopy "../../../sdk/x32/dll_vs9/*.dll" "../Win32/*.*"  /F /Y
+         :VCEnd
+         E:\VisualStudio\NewtonWin-2.30\sdk\x32\dll_vs9\newton.dll -> E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\Win32\newton.dll
+         E:\VisualStudio\NewtonWin-2.30\sdk\x32\dll_vs9\newton_d.dll -> E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\Win32\newton_d.dll
+         复制了 2 个文件
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release/obj\alchemedia.unsuccessfulbuild".
+         Touching "Win32\Release/obj\alchemedia.lastbuildstate".
+     1>Done Building Project "E:\VisualStudio\NewtonWin-2.30\toolchain\alchemedia\project_vs2008\alchemedia.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.78

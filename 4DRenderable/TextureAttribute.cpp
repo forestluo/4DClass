@@ -1,0 +1,250 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// TextureAttribute.cpp
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "TextureAttribute.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include <stdlib.h>
+#include <memory.h>
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Global
+//
+///////////////////////////////////////////////////////////////////////////////
+
+const _INTEGER CTextureAttribute::nullTexture				= 0;
+const _INTEGER CTextureAttribute::float2Texture				= 1;
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CPhysicsAttribute
+//
+// Default construction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CTextureAttribute::CTextureAttribute(void)
+{
+	//Set default value.
+	type = nullTexture;
+
+	//Set count.
+	count = 0;
+	//Clear.
+	memset(&textureData,0,sizeof(tagTextureData));
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CPhysicsAttribute
+//
+// Default deconstruction.
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+CTextureAttribute::~CTextureAttribute(void)
+{
+	//Clear all.
+	clearAllTexture();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CopyTexture
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+void CTextureAttribute::copyTexture(const CTextureAttribute& attribute)
+{
+	//Set referenced.
+	setReferenced(_TRUE);
+	//Set default value.
+	type = attribute.type;
+
+	//Set count.
+	count = attribute.count;
+	//Copy data.
+	memcpy(&textureData,&attribute.textureData,sizeof(tagTextureData));
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetTextureType
+//
+///////////////////////////////////////////////////////////////////////////////
+
+_INTEGER CTextureAttribute::getTextureType() const
+{
+	//Return result.
+	return type;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// SetTextureType
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CTextureAttribute::setTextureType(_INTEGER type)
+{
+#ifdef _DEBUG
+	assert(type >= 0 && type <= 1);
+#endif
+	//Set value.
+	this->type = type;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetTextureSize
+//
+///////////////////////////////////////////////////////////////////////////////
+
+_INTEGER CTextureAttribute::getTextureSize() const
+{
+	//Check type.
+	switch(type)
+	{
+	case nullTexture:
+		break;
+	case float2Texture:
+		return sizeof(_FLOAT2);
+	default:
+#ifdef _DEBUG
+		assert(_FALSE);
+#endif
+	}
+	return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// ClearAllTexture
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CTextureAttribute::clearAllTexture()
+{
+	//Clear count.
+	count = 0;
+	//Check type.
+	switch(type)
+	{
+	case nullTexture:
+		break;
+	case float2Texture:
+		//Check result.
+		if(textureData.textureFloat2.coordinates != _NULL)
+		{
+			//Check referenced.
+			if(!isReferenced())
+			{
+				//Delete vertices.
+				free(textureData.textureFloat2.coordinates);
+			}
+			//Clear vertices.
+			textureData.textureFloat2.coordinates = (_FLOAT2 *)_NULL;
+		}
+		break;
+	default:
+#ifdef _DEBUG
+		assert(_FALSE);
+#endif
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetTextureCount
+//
+///////////////////////////////////////////////////////////////////////////////
+
+_INTEGER CTextureAttribute::getTextureCount() const
+{
+	//Return result.
+	return count;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// GetFloat2Texture
+//
+///////////////////////////////////////////////////////////////////////////////
+	
+_FLOAT2* CTextureAttribute::getFloat2Texture() const
+{
+	//Return values.
+	return textureData.textureFloat2.coordinates;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// CreateFloat2Texture
+//
+///////////////////////////////////////////////////////////////////////////////
+
+_FLOAT2* CTextureAttribute::createFloat2Texture(_INTEGER count)
+{
+	//Parameters.
+	_FLOAT2* coordinates;
+
+#ifdef _DEBUG
+	assert(count > 0);
+	assert(this->textureData.textureFloat2.coordinates == _NULL);
+#endif
+	//Set count.
+	this->count = count;
+	//Set type.
+	this->type = float2Texture;
+
+	//Create coordinates.
+	coordinates = (_FLOAT2 *)malloc(count * sizeof(_FLOAT2));
+	//Check result.
+#ifdef _DEBUG
+	assert(coordinates != _NULL);
+#endif
+	//Clear memory.
+	memset(coordinates,0,count * sizeof(_FLOAT2));
+
+	//Set referenced.
+	setReferenced(_FALSE);
+	//Set coordinates.
+	this->textureData.textureFloat2.coordinates = coordinates;
+	//Return coordinates.
+	return coordinates;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// SetFloat2Texture
+//
+///////////////////////////////////////////////////////////////////////////////
+
+void CTextureAttribute::setFloat2Texture(_INTEGER count,_FLOAT2* coordinates)
+{
+#ifdef _DEBUG
+	assert(count > 0);
+	assert(coordinates != _NULL);
+	assert(this->textureData.textureFloat2.coordinates == _NULL);
+#endif
+	//Set count.
+	this->count = count;
+	//Set type.
+	this->type = float2Texture;
+	//Set referenced.
+	setReferenced(_TRUE);
+	//Set coordinates.
+	this->textureData.textureFloat2.coordinates = coordinates;
+}

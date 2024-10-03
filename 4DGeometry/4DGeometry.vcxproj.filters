@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="box">
+      <UniqueIdentifier>{9c19ae56-8eb6-448a-bd88-8d7439b9e527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sphere">
+      <UniqueIdentifier>{1556c11e-434e-4d1a-8469-041ccc7742d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle">
+      <UniqueIdentifier>{14c67f28-53c7-470d-9dbd-1f0a2154f1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle\box">
+      <UniqueIdentifier>{ec8ba88d-6d24-436e-a63c-b0fd3069106f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="recycle\sphere">
+      <UniqueIdentifier>{5b7c846f-df85-4bea-8467-a1e512f86f8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleBox.cpp">
+      <Filter>box</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSphere.cpp">
+      <Filter>sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxRecycleBin.cpp">
+      <Filter>recycle\box</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereRecycleBin.cpp">
+      <Filter>recycle\sphere</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleBox.h">
+      <Filter>box</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSphere.h">
+      <Filter>sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxRecycleBin.h">
+      <Filter>recycle\box</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereRecycleBin.h">
+      <Filter>recycle\sphere</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

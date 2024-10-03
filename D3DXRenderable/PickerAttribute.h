@@ -1,0 +1,63 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// PickerAttribute.h
+// 
+// 4DClass Developer
+// Copyright (c) 4DClass. All rights reserved.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _PICKER_ATTRIBUTE_H_
+#define _PICKER_ATTRIBUTE_H_
+
+#pragma once
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Including
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#include "PickRay.h"
+#include "PickResult.h"
+
+#include "WorldObject.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// PickerAttribute
+//
+///////////////////////////////////////////////////////////////////////////////
+
+class CPickerAttribute :
+	public virtual CWorldObject
+{
+public:
+	CPickerAttribute(void);
+	virtual ~CPickerAttribute(void);
+
+public:
+
+	/**
+	 * Whether is picked.
+	 *
+	 * @param None No parameters needed.
+	 * @return
+	 *     <p>Return true, if it is picked.</p>
+	 */
+	virtual CWorldObject* getPickedObject();
+
+	/**
+	 * Pick.
+	 *
+	 * @param pickRay Pick ray.
+	 * @param result Pick result.
+	 * @return
+	 *     <p>Return true, if there is a picked object.</p>
+	 */
+	virtual _BOOL pick(CPickRay& pickRay,CPickResult& result);
+
+};
+
+///////////////////////////////////////////////////////////////////////////////
+#endif //_PICKER_ATTRIBUTE_H_
